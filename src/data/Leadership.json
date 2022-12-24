@@ -1,0 +1,31 @@
+[
+  {
+    "title": "Captain, Badminton Team",
+    "organization": "UMass Amherst Badminton Club",
+    "duration": "Sept 2021 - May 2023",
+    "description": [
+      "Coached and led the team to 2nd position in Yonex North-Eastern Collegiate Team Championship"
+    ],
+    "logo": "UMass-Amherst-Badminton-Club"
+  },
+  {
+    "title": "Computer Science Peer Tutor",
+    "organization": "University of Massachusetts Amherst",
+    "duration": "Sept 2020 - Dec 2020",
+    "description": [
+      "Performed tutoring sessions with students for Data Structures in Java course",
+      "Conducted weekly meetings with 10+ tutees and mentored them on exam preparations, lecture concepts and projects"
+    ],
+    "logo": "UMass-Amherst"
+  },
+  {
+    "title": "Secretary",
+    "organization": "Fresh CICS",
+    "duration": "Sept 2021 - Present",
+    "description": [
+      "Hosted events to enable students to interact with other students and faculty of Computer Science at UMass Amherst",
+      "Organized workshops with Google Developer Student’s club on APIs, building startups, Git, Google Products"
+    ],
+    "logo": "UMass-Amherst"
+  }
+]
