@@ -1,55 +1,31 @@
 [
   {
-    "title": "Frontend Intern",
-    "organization": "AudioShelf",
-    "duration": "Nov 2022 - Feb 2022",
+    "title": "Captain, Badminton Team",
+    "organization": "UMass Amherst Badminton Club",
+    "duration": "Sept 2021 - May 2023",
     "description": [
-      "Creating the next generation platform for streaming audio content using React Native",
-      "Enhanced app performance by implementing caching in the app with automatic updates occurring when required",
-      "Added new features, raised issues, and resolved bugs"
+      "Coached and led the team to 2nd position in Yonex North-Eastern Collegiate Team Championship"
     ],
-    "logo": "AudioShelf"
+    "logo": "UMass-Amherst-Badminton-Club"
   },
   {
-    "title": "Software Engineeer Intern",
-    "organization": "Altius Strategic Consulting",
-    "duration": "May 2022 - Aug 2022",
+    "title": "Computer Science Peer Tutor",
+    "organization": "University of Massachusetts Amherst",
+    "duration": "Sept 2020 - Dec 2020",
     "description": [
-      "Transformed existing Machine Learning pipelines using Java ML Kit to perform on-device processing on Android",
-      "Architected cloud services through AWS Lambda, DynamoDB, API Gateway, S3 into the mobile application",
-      "Developed client-facing user interface and implemented user authentication via Firebase"
-    ],
-    "logo": "ASC"
-  },
-  {
-    "title": "Software Developer",
-    "organization": "CICSoft",
-    "duration": "Feb 2022 - Present",
-    "description": [
-      "Developed and integrated new features for the organization",
-      "Conducted bootcamp sessions for 50 students on Android and React Native which enabled them to learn and explore the field of mobile development"
-    ],
-    "logo": "CICSoft"
-  },
-  {
-    "title": "Undergraduate Research Volunteer",
-    "organization": "University of Massacusetts Amherst",
-    "duration": "Dec 2021 - Jan 2022",
-    "description": [
-      "Developed an image classification model on CIFAR-10 dataset using neural network",
-      "Transformed images to word embedding using gloVe word embedding",
-      "Utilized cosine similarity between word embedding as metric for classification"
+      "Performed tutoring sessions with students for Data Structures in Java course",
+      "Conducted weekly meetings with 10+ tutees and mentored them on exam preparations, lecture concepts and projects"
     ],
     "logo": "UMass-Amherst"
   },
   {
-    "title": "Software Engineer Intern",
-    "organization": "KPMG",
-    "duration": "May 2021 - Aug 2021",
+    "title": "Secretary",
+    "organization": "Fresh CICS",
+    "duration": "Sept 2021 - Present",
     "description": [
-      "Developed a web scraper in Python, using Beautiful Soup library which scraped news articles based on provided keywords",
-      "Implemented Machine Learning algorithms on different data sets along with hyperparameter tuning for higher efficiency"
+      "Hosted events to enable students to interact with other students and faculty of Computer Science at UMass Amherst",
+      "Organized workshops with Google Developer Student’s club on APIs, building startups, Git, Google Products"
     ],
-    "logo": "KPMG"
+    "logo": "UMass-Amherst"
   }
 ]
