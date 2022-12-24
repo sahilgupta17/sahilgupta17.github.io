@@ -2,6 +2,7 @@
   {
     "title": "Frontend Intern",
     "organization": "AudioShelf",
+    "location": "Amherst, Massachusetts, U.S.A.",
     "duration": "Nov 2022 - Feb 2022",
     "description": [
       "Creating the next generation platform for streaming audio content using React Native",
@@ -13,6 +14,7 @@
   {
     "title": "Software Engineeer Intern",
     "organization": "Altius Strategic Consulting",
+    "location": "California, U.S.A.",
     "duration": "May 2022 - Aug 2022",
     "description": [
       "Transformed existing Machine Learning pipelines using Java ML Kit to perform on-device processing on Android",
@@ -24,6 +26,7 @@
   {
     "title": "Software Developer",
     "organization": "CICSoft",
+    "location": "Amherst, Massachusetts, U.S.A.",
     "duration": "Feb 2022 - Present",
     "description": [
       "Developed and integrated new features for the organization",
@@ -34,6 +37,7 @@
   {
     "title": "Undergraduate Research Volunteer",
     "organization": "University of Massacusetts Amherst",
+    "location": "Amherst, Massachusetts, U.S.A.",
     "duration": "Dec 2021 - Jan 2022",
     "description": [
       "Developed an image classification model on CIFAR-10 dataset using neural network",
@@ -45,6 +49,7 @@
   {
     "title": "Software Engineer Intern",
     "organization": "KPMG",
+    "location": "Harayana, India",
     "duration": "May 2021 - Aug 2021",
     "description": [
       "Developed a web scraper in Python, using Beautiful Soup library which scraped news articles based on provided keywords",
