@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Elena",
+    "description": "Developed an Elevation based web navigation system which assists hikers and bikers in finding shortest path between 2 locations based on minimum total elevation",
+    "gitHubUrl": "https://github.com/apourgol/EleNa",
+    "liveUrl": null,
+    "techStack": ["React", "Django", "Python"]
+  },
+  {
+    "title": "UTrack",
+    "description": "Engineered the backend functionality of a web application which enhances employees' productivity by providing task organization, performance reviews, paid time off applications and various other features",
+    "gitHubUrl": "https://github.com/Samuel-Jay/CS320_Team1_repo",
+    "liveUrl": null,
+    "techStack": ["React", "Node.js", "Express.js", "MongoDB"]
+  },
+  {
+    "title": "MyState",
+    "description": "Developed a Machine Learning model which can predict 7 different classes of emotions using Convolutional Neural Networks with an accuracy of 54% using FER 2013 dataset",
+    "gitHubUrl": null,
+    "liveUrl": null,
+    "techStack": ["Python", "scikit-learn", "TensorFlow"]
+  },
+  {
+    "title": "Dhwani",
+    "description": "Engineered a sentiment detection model, using Decision Trees in Python, which classifies an audio recording into sad or angry emotion using audio features such as pitch, MFCC and amplitude with an accuracy of 80%",
+    "gitHubUrl": null,
+    "liveUrl": null,
+    "techStack": ["Python", "scikit-learn"]
+  }
+]
