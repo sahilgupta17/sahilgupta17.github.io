@@ -10,10 +10,16 @@ import { MdEmail } from "react-icons/md";
 import styles from "./Home.module.css";
 
 const Home = () => {
+  const backgroundImagesArray = [CaliforniaBackgroundImg];
+  const backgroundImage =
+    backgroundImagesArray[
+      Math.floor(Math.random() * backgroundImagesArray.length)
+    ];
+
   return (
     <div
       className={styles.container}
-      style={{ background: `url(${CaliforniaBackgroundImg})` }}
+      style={{ background: `url(${backgroundImage})` }}
     >
       <ImageHolder
         primarySource={ProfessionalHeadshot}
