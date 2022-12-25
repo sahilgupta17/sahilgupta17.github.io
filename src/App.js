@@ -1,25 +1,56 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, Suspense, lazy } from "react";
+import NavigationBar from "./components/NavigationBar/NavigationBar";
+import { Spinner } from "react-bootstrap";
+import "./App.css";
 
-function App() {
+const Home = lazy(() => import("./pages/Home/Home"));
+const Skills = lazy(() => import("./pages/Skills/Skills"));
+const Experience = lazy(() => import("./pages/Experience/Experience"));
+const Projects = lazy(() => import("./pages/Projects/Projects"));
+const Leadership = lazy(() => import("./pages/Leadership/Leadership"));
+const Achievements = lazy(() => import("./pages/Achievements/Achievements"));
+const NotFound = lazy(() => import("./pages/NotFound/NotFound"));
+
+const Loading = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div
+      className="center outer-structure"
+      style={{ display: "flex", flexDirection: "column" }}
+    >
+      <Spinner animation="border" variant="dark" role="status">
+        <span className="visually-hidden">Loading...</span>
+      </Spinner>
     </div>
   );
-}
+};
+
+const App = () => {
+  const [currentTab, setCurrentTab] = useState("home");
+
+  const renderSwitch = (param) => {
+    switch (param) {
+      case "home":
+        return <Home />;
+      case "skills":
+        return <Skills />;
+      case "experience":
+        return <Experience />;
+      case "projects":
+        return <Projects />;
+      case "leadership":
+        return <Leadership />;
+      case "achievements":
+        return <Achievements />;
+      default:
+        return <NotFound />;
+    }
+  };
+  return (
+    <div className="App">
+      <NavigationBar currentTab={currentTab} setCurrentTab={setCurrentTab} />
+      <Suspense fallback={Loading()}>{renderSwitch(currentTab)}</Suspense>
+    </div>
+  );
+};
 
 export default App;
