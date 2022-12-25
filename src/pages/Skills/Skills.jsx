@@ -1,9 +1,9 @@
 import React from "react";
-
+import SkillsSphere from "../../components/SkillsSphere/SkillsSphere";
 const Skills = () => {
   return (
     <div>
-      <h1>Skills</h1>
+      <SkillsSphere />
     </div>
   );
 };
