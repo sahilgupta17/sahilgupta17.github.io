@@ -1,6 +1,7 @@
 import React, { useState, Suspense, lazy } from "react";
 import NavigationBar from "./components/NavigationBar/NavigationBar";
 import { Spinner } from "react-bootstrap";
+import "./App.css";
 
 const Home = lazy(() => import("./pages/Home/Home"));
 const Skills = lazy(() => import("./pages/Skills/Skills"));
