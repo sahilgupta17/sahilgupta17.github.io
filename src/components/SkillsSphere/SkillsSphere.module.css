@@ -1,20 +1,20 @@
 .skills-sphere {
-  position: relative;
-  top: 0;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #1e1e1e;
+  /* position: relative;  */
+  /* top: 0; */
+  /* width: 100%; */
+  /* height: 100vh; */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* background-color: #1e1e1e; */
 }
 
 .tagcloud {
-  display: inline-block;
+  /* display: inline-block; 
   top: 0;
   left: 0;
-  letter-spacing: 0.0625em;
-  font-size: 1.3em;
+  letter-spacing: 0.0625em; 
+  font-size: 5.3em; */
 }
 
 .tagcloud--item {
