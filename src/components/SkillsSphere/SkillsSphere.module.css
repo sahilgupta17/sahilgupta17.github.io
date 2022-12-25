@@ -19,7 +19,6 @@
 
 .tagcloud--item {
   color: #00ffffff;
-  text-transform: uppercase;
 }
 
 .tagcloud--item:hover {
