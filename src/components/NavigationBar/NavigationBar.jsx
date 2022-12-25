@@ -1,11 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import { Container, Navbar, Nav } from "react-bootstrap";
 import styles from "./NavigationBar.module.css";
 
 const NavigationBar = (props) => {
+  const [expanded, setExpanded] = useState(false);
+
   return (
     <Navbar
       sticky="top"
+      expanded={expanded}
       variant="dark"
       expand="lg"
       style={{
@@ -15,35 +18,60 @@ const NavigationBar = (props) => {
       }}
     >
       <Container fluid>
-        <Navbar.Brand
-          onClick={() => props.setCurrentTab("home")}
-          style={{ color: "white", fontWeight: "500" }}
-        >
+        <Navbar.Brand style={{ color: "white", fontWeight: "500" }}>
           Sahil Gupta
         </Navbar.Brand>
-        <Navbar.Toggle className="ms-auto" aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle
+          className="ms-auto"
+          aria-controls="basic-navbar-nav"
+          onClick={() => setExpanded(!expanded)}
+        />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav
             className="ms-auto"
             activeKey={props.currentTab}
             onSelect={(key) => props.setCurrentTab(key)}
           >
-            <Nav.Link eventKey="home" className={styles.navLink}>
+            <Nav.Link
+              eventKey="home"
+              className={styles.navLink}
+              onClick={() => setExpanded(false)}
+            >
               Home
             </Nav.Link>
-            <Nav.Link eventKey="skills" className={styles.navLink}>
+            <Nav.Link
+              eventKey="skills"
+              className={styles.navLink}
+              onClick={() => setExpanded(false)}
+            >
               Skills
             </Nav.Link>
-            <Nav.Link eventKey="experience" className={styles.navLink}>
+            <Nav.Link
+              eventKey="experience"
+              className={styles.navLink}
+              onClick={() => setExpanded(false)}
+            >
               Experience
             </Nav.Link>
-            <Nav.Link eventKey="projects" className={styles.navLink}>
+            <Nav.Link
+              eventKey="projects"
+              className={styles.navLink}
+              onClick={() => setExpanded(false)}
+            >
               Projects
             </Nav.Link>
-            <Nav.Link eventKey="leadership" className={styles.navLink}>
+            <Nav.Link
+              eventKey="leadership"
+              className={styles.navLink}
+              onClick={() => setExpanded(false)}
+            >
               Leadership
             </Nav.Link>
-            <Nav.Link eventKey="achievements" className={styles.navLink}>
+            <Nav.Link
+              eventKey="achievements"
+              className={styles.navLink}
+              onClick={() => setExpanded(false)}
+            >
               Achievements
             </Nav.Link>
           </Nav>
