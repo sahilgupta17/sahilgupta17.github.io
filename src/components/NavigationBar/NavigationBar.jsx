@@ -28,12 +28,24 @@ const NavigationBar = (props) => {
             activeKey={props.currentTab}
             onSelect={(key) => props.setCurrentTab(key)}
           >
-            <Nav.Link eventKey="home">Home</Nav.Link>
-            <Nav.Link eventKey="skills">Skills</Nav.Link>
-            <Nav.Link eventKey="experience">Experience</Nav.Link>
-            <Nav.Link eventKey="projects">Projects</Nav.Link>
-            <Nav.Link eventKey="leadership">Leadership</Nav.Link>
-            <Nav.Link eventKey="achievements">Achievements</Nav.Link>
+            <Nav.Link eventKey="home" className={styles.navLink}>
+              Home
+            </Nav.Link>
+            <Nav.Link eventKey="skills" className={styles.navLink}>
+              Skills
+            </Nav.Link>
+            <Nav.Link eventKey="experience" className={styles.navLink}>
+              Experience
+            </Nav.Link>
+            <Nav.Link eventKey="projects" className={styles.navLink}>
+              Projects
+            </Nav.Link>
+            <Nav.Link eventKey="leadership" className={styles.navLink}>
+              Leadership
+            </Nav.Link>
+            <Nav.Link eventKey="achievements" className={styles.navLink}>
+              Achievements
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
