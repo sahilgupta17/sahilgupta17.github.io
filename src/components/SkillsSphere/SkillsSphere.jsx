@@ -16,6 +16,9 @@ const SkillsSphere = () => {
         "C++",
         "Selenium",
         "AWS",
+        "AWS Lambda",
+        "AWS S3",
+        "AWS DynamoDB",
         "Android Development",
         "React Native",
         "Firebase",
@@ -29,7 +32,7 @@ const SkillsSphere = () => {
       const options = {
         radius: 300,
         maxSpeed: "fast",
-        initSpeed: "fast",
+        initSpeed: "normal",
         keep: true,
       };
       TagCloud(container, skills, options);
@@ -37,7 +40,7 @@ const SkillsSphere = () => {
   }, []);
 
   return (
-    <div className="text-sphere">
+    <div className="skills-sphere">
       <span className="tagcloud "></span>
     </div>
   );
