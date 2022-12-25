@@ -4,19 +4,13 @@ import {
   ProfessionalHeadshot,
   FallbackProfessionalHeadshot,
   CaliforniaBackgroundImg1,
-  NewYorkBackgroundImg1,
-  NewYorkBackgroundImg2,
 } from "../../assets/images";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import styles from "./Home.module.css";
 
 const Home = () => {
-  const backgroundImagesArray = [
-    CaliforniaBackgroundImg1,
-    NewYorkBackgroundImg1,
-    NewYorkBackgroundImg2,
-  ];
+  const backgroundImagesArray = [CaliforniaBackgroundImg1];
   const backgroundImage =
     backgroundImagesArray[
       Math.floor(Math.random() * backgroundImagesArray.length)
