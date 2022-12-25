@@ -5,8 +5,8 @@ import "./App.css";
 
 const Home = lazy(() => import("./pages/Home/Home"));
 const Skills = lazy(() => import("./pages/Skills/Skills"));
-const Projects = lazy(() => import("./pages/Projects/Projects"));
 const Experience = lazy(() => import("./pages/Experience/Experience"));
+const Projects = lazy(() => import("./pages/Projects/Projects"));
 const Leadership = lazy(() => import("./pages/Leadership/Leadership"));
 const Achievements = lazy(() => import("./pages/Achievements/Achievements"));
 const NotFound = lazy(() => import("./pages/NotFound/NotFound"));

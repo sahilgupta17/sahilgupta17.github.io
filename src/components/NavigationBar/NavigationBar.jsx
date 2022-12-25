@@ -32,6 +32,7 @@ const NavigationBar = (props) => {
             <Nav.Link eventKey="skills">Skills</Nav.Link>
             <Nav.Link eventKey="experience">Experience</Nav.Link>
             <Nav.Link eventKey="projects">Projects</Nav.Link>
+            <Nav.Link eventKey="leadership">Leadership</Nav.Link>
             <Nav.Link eventKey="achievements">Achievements</Nav.Link>
           </Nav>
         </Navbar.Collapse>
