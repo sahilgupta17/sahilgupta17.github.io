@@ -1,16 +1,28 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ImageHolder from "../../components/ImageHolder/ImageHolder";
 import {
   ProfessionalHeadshot,
   FallbackProfessionalHeadshot,
   CaliforniaBackgroundImg1,
+  CaliforniaBackgroundImg2,
+  CaliforniaBackgroundImg3,
+  NewYorkBackgroundImg1,
+  DelhiBackgroundImg1,
+  DelhiBackgroundImg2,
 } from "../../assets/images";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import styles from "./Home.module.css";
 
 const Home = () => {
-  const backgroundImagesArray = [CaliforniaBackgroundImg1];
+  const backgroundImagesArray = [
+    CaliforniaBackgroundImg1,
+    CaliforniaBackgroundImg2,
+    CaliforniaBackgroundImg3,
+    NewYorkBackgroundImg1,
+    DelhiBackgroundImg1,
+    DelhiBackgroundImg2,
+  ];
   const backgroundImage =
     backgroundImagesArray[
       Math.floor(Math.random() * backgroundImagesArray.length)
