@@ -37,6 +37,10 @@
   word-spacing: 4px;
 }
 
+.socials {
+  margin-top: 1em;
+}
+
 .socialsIcon {
   color: white;
   font-size: 2em;
