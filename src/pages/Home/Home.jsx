@@ -7,6 +7,8 @@ import {
   CaliforniaBackgroundImg2,
   CaliforniaBackgroundImg3,
   NewYorkBackgroundImg1,
+  NewYorkBackgroundImg2,
+  NewYorkBackgroundImg3,
   DelhiBackgroundImg1,
   DelhiBackgroundImg2,
 } from "../../assets/images";
@@ -22,6 +24,8 @@ const Home = () => {
     CaliforniaBackgroundImg2,
     CaliforniaBackgroundImg3,
     NewYorkBackgroundImg1,
+    NewYorkBackgroundImg2,
+    NewYorkBackgroundImg3,
     DelhiBackgroundImg1,
     DelhiBackgroundImg2,
   ];
