@@ -15,7 +15,7 @@ import { MdEmail } from "react-icons/md";
 import styles from "./Home.module.css";
 
 const Home = () => {
-  const [location, setLocation] = useState("");
+  const [location, setLocation] = useState("Delhi, India");
   const [backgroundImage, setBackgroundImage] = useState(DelhiBackgroundImg1);
   const backgroundImagesArray = [
     CaliforniaBackgroundImg1,
