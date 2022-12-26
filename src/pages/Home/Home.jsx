@@ -15,6 +15,8 @@ import { MdEmail } from "react-icons/md";
 import styles from "./Home.module.css";
 
 const Home = () => {
+  const [location, setLocation] = useState("");
+  const [backgroundImage, setBackgroundImage] = useState(DelhiBackgroundImg1);
   const backgroundImagesArray = [
     CaliforniaBackgroundImg1,
     CaliforniaBackgroundImg2,
@@ -23,10 +25,22 @@ const Home = () => {
     DelhiBackgroundImg1,
     DelhiBackgroundImg2,
   ];
-  const backgroundImage =
-    backgroundImagesArray[
-      Math.floor(Math.random() * backgroundImagesArray.length)
-    ];
+
+  const locationDict = {
+    newyork: "New York, USA",
+    california: "California, USA",
+    delhi: "Delhi, India",
+  };
+
+  useEffect(() => {
+    const selectedBackgroundImage =
+      backgroundImagesArray[
+        Math.floor(Math.random() * backgroundImagesArray.length)
+      ];
+    setBackgroundImage(selectedBackgroundImage);
+    const locationName = selectedBackgroundImage.split("-")[1];
+    setLocation(locationDict[locationName]);
+  }, []);
 
   return (
     <div
@@ -59,7 +73,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className={styles.location}>Delhi, India</div>
+      <div className={styles.location}>{location}</div>
     </div>
   );
 };
