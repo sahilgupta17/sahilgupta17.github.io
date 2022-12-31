@@ -8,11 +8,7 @@ const SkillsDisplay = (props) => {
       <span className={styles.title}>{props.data.type}</span>
       <div className={styles.skillsContainer}>
         {props.data.skills.map((skill) => (
-          <SkillsIcon
-            name={skill.name}
-            alt={skill.alt}
-            logo="TypeScript.webp"
-          />
+          <SkillsIcon name={skill.name} alt={skill.alt} logo={skill.logo} />
         ))}
       </div>
     </div>
