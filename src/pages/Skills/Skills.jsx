@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../../components/Header/Header";
-import SkillsIcon from "../../components/SkillsIcon/SkillsIcon";
+import SkillsDisplay from "../../components/SkillsDisplay/SkillsDisplay";
+import SkillsJson from "../../data/Skills.json";
 import SkillSphere from "../../components/SkillSphere/SkillSphere";
 import { ThemeContext } from "../../App";
 import styles from "./Skills.module.css";
@@ -13,11 +14,9 @@ const Skills = () => {
       <Header title="Skills" />
       <div className={styles.content}>
         <div className={styles.leftComponentContainer}>
-          <SkillsIcon
-            name="TypeScript"
-            logo="TypeScript.webp"
-            alt="TypeScript Logo"
-          />
+          {SkillsJson.map((category) => (
+            <SkillsDisplay data={category} />
+          ))}
         </div>
         <SkillSphere />
       </div>
