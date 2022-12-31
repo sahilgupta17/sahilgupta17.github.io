@@ -1,7 +1,7 @@
 [
   {
     "type": "Languages",
-    "data": [
+    "skills": [
       {
         "name": "Java",
         "logo": "Java",
@@ -41,7 +41,7 @@
   },
   {
     "type": "Frameworks",
-    "data": [
+    "skills": [
       {
         "name": "React",
         "logo": "React",
@@ -61,7 +61,7 @@
   },
   {
     "type": "Technologies",
-    "data": [
+    "skills": [
       {
         "name": "AWS",
         "logo": "AWS",
@@ -85,8 +85,8 @@
     ]
   },
   {
-    "type": "Databases",
-    "data": [
+    "type": "skillsbases",
+    "skills": [
       {
         "name": "MySql",
         "logo": "MySql",

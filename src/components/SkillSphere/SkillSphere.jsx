@@ -12,7 +12,7 @@ const SkillsSphere = () => {
     return () => {
       const container = ".tagcloud";
       const skills = SkillsData.map((category) => {
-        const skillsList = category.data.map((skill) => skill.name);
+        const skillsList = category.skills.map((skill) => skill.name);
         return skillsList;
       }).reduce(
         (accumulator, currentValue) => accumulator.concat(currentValue),
