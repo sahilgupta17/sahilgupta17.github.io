@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 10px;
+  justify-content: center;
+  background-color: white;
+  padding: 10px;
+  border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 3px;
+}
+
+.iconImg {
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.skillName {
+  font-size: 1.2em;
+  color: black;
+}
