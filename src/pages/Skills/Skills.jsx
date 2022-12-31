@@ -1,5 +1,5 @@
 import React from "react";
-import SkillsSphere from "../../components/SkillsSphere/SkillsSphere";
+import SkillSphere from "../../components/SkillSphere/SkillSphere";
 import { ThemeContext } from "../../App";
 import styles from "./Skills.module.css";
 
@@ -8,7 +8,7 @@ const Skills = () => {
   return (
     <div className={styles.container}>
       <div className={styles.skillsImageContainer}></div>
-      <SkillsSphere className={styles.skillsSphere} />
+      <SkillSphere />
     </div>
   );
 };
