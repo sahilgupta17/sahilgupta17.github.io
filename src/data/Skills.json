@@ -4,31 +4,38 @@
     "data": [
       {
         "name": "Java",
-        "logo": "Java"
+        "logo": "Java",
+        "alt": "Java Logo"
       },
       {
         "name": "Python",
-        "logo": "Python"
+        "logo": "Python",
+        "alt": "Python Logo"
       },
       {
         "name": "JavaScript",
-        "logo": "JavaScript"
+        "logo": "JavaScript",
+        "alt": "JavaScript Logo"
       },
       {
         "name": "TypeScript",
-        "logo": "TypeScript"
+        "logo": "TypeScript",
+        "alt": "TypeScript Logo"
       },
       {
         "name": "Kotlin",
-        "logo": "Kotlin"
+        "logo": "Kotlin",
+        "alt": "Kotlin Logo"
       },
       {
         "name": "SQL",
-        "logo": "SQL"
+        "logo": "SQL",
+        "alt": "SQL Logo"
       },
       {
         "name": "C++",
-        "logo": "CPP"
+        "logo": "CPP",
+        "alt": "CPP Logo"
       }
     ]
   },
@@ -37,15 +44,18 @@
     "data": [
       {
         "name": "React",
-        "logo": "React"
+        "logo": "React",
+        "alt": "React Logo"
       },
       {
         "name": "React Native",
-        "logo": "React"
+        "logo": "React",
+        "alt": "React Native Logo"
       },
       {
         "name": "Selenium",
-        "logo": "Selenium"
+        "logo": "Selenium",
+        "alt": "Selenium Logo"
       }
     ]
   },
@@ -54,19 +64,23 @@
     "data": [
       {
         "name": "AWS",
-        "logo": "AWS"
+        "logo": "AWS",
+        "alt": "AWS Logo"
       },
       {
         "name": "Firebase",
-        "logo": "Firebase"
+        "logo": "Firebase",
+        "alt": "Firebase Logo"
       },
       {
         "name": "Android Development",
-        "logo": "Android-Development"
+        "logo": "Android-Development",
+        "alt": "Android Development Logo"
       },
       {
         "name": "Git",
-        "logo": "Git"
+        "logo": "Git",
+        "alt": "Git Logo"
       }
     ]
   },
@@ -75,15 +89,18 @@
     "data": [
       {
         "name": "MySql",
-        "logo": "MySql"
+        "logo": "MySql",
+        "alt": "MySql Logo"
       },
       {
         "name": "PostgreSQL",
-        "logo": "PostgreSQL"
+        "logo": "PostgreSQL",
+        "alt": "PostgreSQL Logo"
       },
       {
         "name": "MongoDB",
-        "logo": "MongoDB"
+        "logo": "MongoDB",
+        "alt": "MongoDB Logo"
       }
     ]
   }
