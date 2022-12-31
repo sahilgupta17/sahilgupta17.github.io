@@ -1,8 +1,8 @@
 import React from "react";
 import Header from "../../components/Header/Header";
 import SkillsDisplay from "../../components/SkillsDisplay/SkillsDisplay";
-import SkillsJson from "../../data/Skills.json";
-import SkillSphere from "../../components/SkillSphere/SkillSphere";
+import SkillsJSON from "../../data/Skills.json";
+import WordCloud from "../../components/WordCloud/WordCloud";
 import { ThemeContext } from "../../App";
 import styles from "./Skills.module.css";
 
@@ -14,11 +14,11 @@ const Skills = () => {
       <Header title="Skills" />
       <div className={styles.content}>
         <div className={styles.leftComponentContainer}>
-          {SkillsJson.map((category) => (
+          {SkillsJSON.map((category) => (
             <SkillsDisplay data={category} />
           ))}
         </div>
-        <SkillSphere />
+        <WordCloud />
       </div>
     </div>
   );
