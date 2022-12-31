@@ -24,8 +24,15 @@ const Loading = () => {
   );
 };
 
+export const ThemeContext = React.createContext(null);
+
 const App = () => {
   const [currentTab, setCurrentTab] = useState("home");
+  const [isDarkMode, setIsDarkMode] = useState(false);
+
+  const toggleTheme = () => {
+    setIsDarkMode(!isDarkMode);
+  };
 
   const renderSwitch = (param) => {
     switch (param) {
@@ -45,11 +52,14 @@ const App = () => {
         return <NotFound />;
     }
   };
+
   return (
-    <div className="App">
-      <NavigationBar currentTab={currentTab} setCurrentTab={setCurrentTab} />
-      <Suspense fallback={Loading()}>{renderSwitch(currentTab)}</Suspense>
-    </div>
+    <ThemeContext.Provider value={{ isDarkMode, toggleTheme }}>
+      <div className="App">
+        <NavigationBar currentTab={currentTab} setCurrentTab={setCurrentTab} />
+        <Suspense fallback={Loading()}>{renderSwitch(currentTab)}</Suspense>
+      </div>
+    </ThemeContext.Provider>
   );
 };
 

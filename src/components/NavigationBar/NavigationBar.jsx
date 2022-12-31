@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import { Container, Navbar, Nav } from "react-bootstrap";
 import { MdLightMode, MdDarkMode } from "react-icons/md";
+import { ThemeContext } from "../../App";
 import Switch from "react-switch";
 import styles from "./NavigationBar.module.css";
 
 const NavigationBar = (props) => {
   const [expanded, setExpanded] = useState(false);
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const { isDarkMode, toggleTheme } = React.useContext(ThemeContext);
 
   return (
     <Navbar
@@ -78,7 +79,7 @@ const NavigationBar = (props) => {
               Achievements
             </Nav.Link>
             <Switch
-              onChange={setIsDarkMode}
+              onChange={toggleTheme}
               checked={isDarkMode}
               onColor="#0096c7"
               onHandleColor="#0096c7"
