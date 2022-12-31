@@ -1,74 +1,90 @@
 [
   {
-    "name": "Java",
-    "logo": "Java"
+    "type": "Languages",
+    "data": [
+      {
+        "name": "Java",
+        "logo": "Java"
+      },
+      {
+        "name": "Python",
+        "logo": "Python"
+      },
+      {
+        "name": "JavaScript",
+        "logo": "JavaScript"
+      },
+      {
+        "name": "TypeScript",
+        "logo": "TypeScript"
+      },
+      {
+        "name": "Kotlin",
+        "logo": "Kotlin"
+      },
+      {
+        "name": "SQL",
+        "logo": "SQL"
+      },
+      {
+        "name": "C++",
+        "logo": "CPP"
+      }
+    ]
   },
   {
-    "name": "Python",
-    "logo": "Python"
+    "type": "Frameworks",
+    "data": [
+      {
+        "name": "React",
+        "logo": "React"
+      },
+      {
+        "name": "React Native",
+        "logo": "React"
+      },
+      {
+        "name": "Selenium",
+        "logo": "Selenium"
+      }
+    ]
   },
   {
-    "name": "JavaScript",
-    "logo": "JavaScript"
+    "type": "Technologies",
+    "data": [
+      {
+        "name": "AWS",
+        "logo": "AWS"
+      },
+      {
+        "name": "Firebase",
+        "logo": "Firebase"
+      },
+      {
+        "name": "Android Development",
+        "logo": "Android-Development"
+      },
+      {
+        "name": "Git",
+        "logo": "Git"
+      }
+    ]
   },
   {
-    "name": "TypeScript",
-    "logo": "TypeScript"
-  },
-  {
-    "name": "Kotlin",
-    "logo": "Kotlin"
-  },
-  {
-    "name": "SQL",
-    "logo": "SQL"
-  },
-  {
-    "name": "C++",
-    "logo": "CPP"
-  },
-  {
-    "name": "Selenium",
-    "logo": "Selenium"
-  },
-  {
-    "name": "AWS",
-    "logo": "AWS"
-  },
-  {
-    "name": "Android Development",
-    "logo": "Android-Development"
-  },
-  {
-    "name": "React Native",
-    "logo": "React-Native"
-  },
-  {
-    "name": "Firebase",
-    "logo": "Firebase"
-  },
-  {
-    "name": "MongoDB",
-    "logo": "MongoDB"
-  },
-  {
-    "name": "NumPy",
-    "logo": "NumPy"
-  },
-  {
-    "name": "Pandas",
-    "logo": "Pandas"
-  },
-  {
-    "name": "Matplotlib",
-    "logo": "Matplotlib"
-  },
-  {
-    "name": "scikit-learn",
-    "logo": "scikit-learn"
-  },
-  {
-    "name": "Git",
-    "logo": "Git"
+    "type": "Databases",
+    "data": [
+      {
+        "name": "MySql",
+        "logo": "MySql"
+      },
+      {
+        "name": "PostgreSQL",
+        "logo": "PostgreSQL"
+      },
+      {
+        "name": "MongoDB",
+        "logo": "MongoDB"
+      }
+    ]
   }
 ]
