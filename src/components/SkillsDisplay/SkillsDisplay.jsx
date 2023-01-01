@@ -12,7 +12,7 @@ const SkillsDisplay = (props) => {
         className={styles.title}
         style={{
           color: isDarkMode ? "#fff" : "#000",
-          opacity: isDarkMode ? 0.9 : 1,
+          opacity: isDarkMode ? 0.8 : 1,
         }}
       >
         {props.data.type}

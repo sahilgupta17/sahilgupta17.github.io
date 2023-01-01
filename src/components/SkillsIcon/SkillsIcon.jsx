@@ -18,7 +18,7 @@ const SkillsIcon = (props) => {
         className={styles.skillName}
         style={{
           color: isDarkMode ? "white" : "black",
-          opacity: isDarkMode ? 0.9 : 1,
+          opacity: isDarkMode ? 0.8 : 1,
         }}
       >
         {props.name}
