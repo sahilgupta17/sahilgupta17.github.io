@@ -1,17 +1,23 @@
 import React, { useEffect } from "react";
 import TagCloud from "TagCloud";
 import SkillsData from "../../data/Skills.json";
-import "./SkillsSphere.module.css";
+import "./WordCloud.module.css";
 
 // TODO: Update the css file. Remove redundant styling code
 // And resolve issue that tagcloud item color and hover is not working
 // No styles currently working
 
-const SkillsSphere = () => {
+const WordCloud = () => {
   useEffect(() => {
     return () => {
       const container = ".tagcloud";
-      const skills = SkillsData.map((elem) => elem.name);
+      const skills = SkillsData.map((category) => {
+        const skillsList = category.skills.map((skill) => skill.name);
+        return skillsList;
+      }).reduce(
+        (accumulator, currentValue) => accumulator.concat(currentValue),
+        []
+      );
 
       const options = {
         radius: 300,
@@ -27,4 +33,4 @@ const SkillsSphere = () => {
   return <span className="tagcloud"></span>;
 };
 
-export default SkillsSphere;
+export default WordCloud;

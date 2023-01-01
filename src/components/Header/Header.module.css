@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Lexend&display=swap");
+
+.header {
+  flex-direction: row;
+  height: 6em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-family: "Lexend";
+  font-size: 3.5em;
+  color: black;
+}
