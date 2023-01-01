@@ -18,8 +18,13 @@ const SkillsDisplay = (props) => {
         {props.data.type}
       </span>
       <div className={styles.skillsContainer}>
-        {props.data.skills.map((skill) => (
-          <SkillsIcon name={skill.name} alt={skill.alt} logo={skill.logo} />
+        {props.data.skills.map((skill, index) => (
+          <SkillsIcon
+            key={index}
+            name={skill.name}
+            alt={skill.alt}
+            logo={skill.logo}
+          />
         ))}
       </div>
     </div>

@@ -9,7 +9,8 @@
       "Enhanced app performance by implementing caching in the app with automatic updates occurring when required",
       "Added new features, raised issues, and resolved bugs"
     ],
-    "logo": "AudioShelf.webp"
+    "logo": "AudioShelf.webp",
+    "alt": "AudioShelf Logo"
   },
   {
     "title": "Software Engineeer Intern",
@@ -21,7 +22,8 @@
       "Architected cloud services through AWS Lambda, DynamoDB, API Gateway, S3 into the mobile application",
       "Developed client-facing user interface and implemented user authentication via Firebase"
     ],
-    "logo": "ASC.webp"
+    "logo": "ASC.webp",
+    "alt": "Altius Strategic Consulting Logo"
   },
   {
     "title": "Software Developer",
@@ -32,7 +34,8 @@
       "Developed and integrated new features for the organization",
       "Conducted bootcamp sessions for 50 students on Android and React Native which enabled them to learn and explore the field of mobile development"
     ],
-    "logo": "CICSoft.webp"
+    "logo": "CICSoft.webp",
+    "alt": "CICSoft Logo"
   },
   {
     "title": "Undergraduate Research Volunteer",
@@ -44,7 +47,8 @@
       "Transformed images to word embedding using gloVe word embedding",
       "Utilized cosine similarity between word embedding as metric for classification"
     ],
-    "logo": "UMass-Amherst.webp"
+    "logo": "UMass-Amherst.webp",
+    "alt": "University of Massacusetts Amherst Logo"
   },
   {
     "title": "Software Engineer Intern",
@@ -55,6 +59,7 @@
       "Developed a web scraper in Python, using Beautiful Soup library which scraped news articles based on provided keywords",
       "Implemented Machine Learning algorithms on different data sets along with hyperparameter tuning for higher efficiency"
     ],
-    "logo": "KPMG.webp"
+    "logo": "KPMG.webp",
+    "alt": "KPMG Logo"
   }
 ]
