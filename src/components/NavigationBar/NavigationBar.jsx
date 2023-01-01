@@ -81,10 +81,10 @@ const NavigationBar = (props) => {
             <Switch
               onChange={toggleTheme}
               checked={isDarkMode}
-              onColor="#0096c7"
-              onHandleColor="#0096c7"
-              offColor="#F9D71C"
-              offHandleColor="#fff"
+              onColor="#2B2B2D"
+              onHandleColor="#2B2B2D"
+              offColor="#F7D150"
+              offHandleColor="#F7D150"
               handleDiameter={30}
               uncheckedIcon={false}
               checkedIcon={false}
@@ -92,8 +92,8 @@ const NavigationBar = (props) => {
               activeBoxShadow="0px 0px 1px 10px rgba(0, 0, 0, 0.2)"
               height={20}
               width={48}
-              uncheckedHandleIcon={<MdLightMode color="#F9D71C" size={30} />}
-              checkedHandleIcon={<MdDarkMode color="#fff" size={30} />}
+              uncheckedHandleIcon={<MdLightMode color="#fff" size={30} />}
+              checkedHandleIcon={<MdDarkMode color="#FEFCD7" size={30} />}
             />
           </Nav>
         </Navbar.Collapse>
