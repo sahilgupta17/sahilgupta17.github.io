@@ -10,7 +10,10 @@ const Skills = () => {
   const { isDarkMode, toggleTheme } = React.useContext(ThemeContext);
 
   return (
-    <div className={styles.container}>
+    <div
+      className={styles.container}
+      style={{ backgroundColor: isDarkMode ? "#121212" : "#f9f9f9" }}
+    >
       <Header title="Skills" />
       <div className={styles.content}>
         <div className={styles.leftComponentContainer}>
