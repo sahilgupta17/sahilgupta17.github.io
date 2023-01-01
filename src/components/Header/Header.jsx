@@ -9,7 +9,10 @@ const Header = (props) => {
     <div className={styles.header}>
       <h1
         className={styles.title}
-        style={{ color: isDarkMode ? "white" : "black" }}
+        style={{
+          color: isDarkMode ? "white" : "black",
+          opacity: isDarkMode ? 0.9 : 1,
+        }}
       >
         {props.title}
       </h1>

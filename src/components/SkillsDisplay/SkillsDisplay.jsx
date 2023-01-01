@@ -10,7 +10,10 @@ const SkillsDisplay = (props) => {
     <div className={styles.container}>
       <span
         className={styles.title}
-        style={{ color: isDarkMode ? "#fff" : "#000" }}
+        style={{
+          color: isDarkMode ? "#fff" : "#000",
+          opacity: isDarkMode ? 0.9 : 1,
+        }}
       >
         {props.data.type}
       </span>

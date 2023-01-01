@@ -16,7 +16,10 @@ const SkillsIcon = (props) => {
       />
       <span
         className={styles.skillName}
-        style={{ color: isDarkMode ? "white" : "black" }}
+        style={{
+          color: isDarkMode ? "white" : "black",
+          opacity: isDarkMode ? 0.9 : 1,
+        }}
       >
         {props.name}
       </span>
