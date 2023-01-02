@@ -1,20 +1,15 @@
 .container {
   display: flex;
   flex-direction: column;
-  width: 35%;
-  background-color: white;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-  margin-bottom: 5px;
-  margin-top: 10px;
-  padding: 10px 15px 10px 15px;
+  /* background-color: white; */
+  /* box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  padding: 10px 15px 10px 15px; */
 }
 
 .titleContainer {
   display: flex;
   flex-direction: row;
   align-items: center;
-  /* padding-bottom: 10px; */
-  /* justify-content: space-between; */
 }
 
 .logoImg {
@@ -30,11 +25,12 @@
 }
 
 .title {
+  margin-top: 10px;
   font-size: 18px;
   font-weight: 600;
 }
-.skills {
-}
+/* .skills {
+} */
 
 .footer {
   display: flex;
