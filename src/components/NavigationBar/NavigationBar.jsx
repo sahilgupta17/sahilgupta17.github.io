@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { Container, Navbar, Nav } from "react-bootstrap";
 import { MdLightMode, MdDarkMode } from "react-icons/md";
 import { ThemeContext } from "../../App";
-import Switch from "react-switch";
 import styles from "./NavigationBar.module.css";
 
 const NavigationBar = (props) => {
@@ -78,23 +77,13 @@ const NavigationBar = (props) => {
             >
               Achievements
             </Nav.Link>
-            <Switch
-              onChange={toggleTheme}
-              checked={isDarkMode}
-              onColor="#2B2B2D"
-              onHandleColor="#2B2B2D"
-              offColor="#fff"
-              offHandleColor="#fff"
-              handleDiameter={30}
-              uncheckedIcon={false}
-              checkedIcon={false}
-              boxShadow="0px 1px 5px rgba(0, 0, 0, 0.6)"
-              activeBoxShadow="0px 0px 1px 10px rgba(0, 0, 0, 0.2)"
-              height={20}
-              width={48}
-              uncheckedHandleIcon={<MdLightMode color="#F9D71C" size={30} />}
-              checkedHandleIcon={<MdDarkMode color="#FEFCD7" size={30} />}
-            />
+            <div>
+              {isDarkMode ? (
+                <MdDarkMode color="#FEFCD7" size={25} onClick={toggleTheme} />
+              ) : (
+                <MdLightMode color="#F9D71C" size={25} onClick={toggleTheme} />
+              )}
+            </div>
           </Nav>
         </Navbar.Collapse>
       </Container>
