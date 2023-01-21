@@ -81,7 +81,7 @@ const NavigationBar = (props) => {
               {isDarkMode ? (
                 <MdDarkMode color="#FEFCD7" size={25} onClick={toggleTheme} />
               ) : (
-                <MdLightMode color="#F9D71C" size={25} onClick={toggleTheme} />
+                <MdLightMode color="#FEFCD7" size={25} onClick={toggleTheme} />
               )}
             </div>
           </Nav>
