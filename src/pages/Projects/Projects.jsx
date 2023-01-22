@@ -15,11 +15,7 @@ const Projects = () => {
       <Header title="Projects" />
       <div className={styles.projectsContainer}>
         {ProjectsData.map((project, index) => (
-          <ProjectCard
-            data={project}
-            key={index}
-            className={styles.projectCard}
-          />
+          <ProjectCard data={project} key={index} />
         ))}
       </div>
     </div>
