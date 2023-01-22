@@ -6,7 +6,10 @@ const ProjectCard = (props) => {
   const { isDarkMode } = React.useContext(ThemeContext);
 
   return (
-    <div className={styles.container}>
+    <div
+      className={styles.container}
+      style={{ backgroundColor: isDarkMode ? "#090909" : "#fff" }}
+    >
       <img
         className={styles.projectImg}
         src={require(`../../assets/images/projects/${props.data.image}`)}
@@ -14,9 +17,23 @@ const ProjectCard = (props) => {
       />
 
       <div className={styles.contentContainer}>
-        <h3>{props.data.title}</h3>
+        <h3
+          style={{
+            color: isDarkMode ? "white" : "black",
+            opacity: isDarkMode ? 0.8 : 1,
+          }}
+        >
+          {props.data.title}
+        </h3>
         <div>
-          <span>{props.data.description}</span>
+          <span
+            style={{
+              color: isDarkMode ? "white" : "black",
+              opacity: isDarkMode ? 0.8 : 1,
+            }}
+          >
+            {props.data.description}
+          </span>
         </div>
         <div className={styles.techStackContainer}>
           {props.data.techStack.map((skill, index) => (
