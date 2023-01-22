@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Container, Navbar, Nav } from "react-bootstrap";
-import { MdLightMode, MdDarkMode } from "react-icons/md";
+import { MdOutlineLightMode, MdOutlineDarkMode } from "react-icons/md";
+
 import { ThemeContext } from "../../App";
 import styles from "./NavigationBar.module.css";
 
@@ -79,9 +80,17 @@ const NavigationBar = (props) => {
             </Nav.Link>
             <div>
               {isDarkMode ? (
-                <MdDarkMode color="#FEFCD7" size={25} onClick={toggleTheme} />
+                <MdOutlineDarkMode
+                  color="rgba(255, 255, 255, 0.6)"
+                  size={25}
+                  onClick={toggleTheme}
+                />
               ) : (
-                <MdLightMode color="#FEFCD7" size={25} onClick={toggleTheme} />
+                <MdOutlineLightMode
+                  color="rgba(255, 255, 255, 0.6)"
+                  size={25}
+                  onClick={toggleTheme}
+                />
               )}
             </div>
           </Nav>
