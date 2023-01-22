@@ -1,23 +1,18 @@
 import React from "react";
 import styles from "./ProjectCard.module.css";
 import { ThemeContext } from "../../App";
-import { useEffect } from "react";
 
 const ProjectCard = (props) => {
   const { isDarkMode } = React.useContext(ThemeContext);
 
-  useEffect(() => {
-    console.log(props.data);
-  }, []);
   return (
     <div className={styles.container}>
-      <div className={styles.imageContainer}>
-        <img
-          className={styles.projectImg}
-          src={require(`../../assets/images/projects/${props.data.image}`)}
-          alt={props.data.title}
-        />
-      </div>
+      <img
+        className={styles.projectImg}
+        src={require(`../../assets/images/projects/${props.data.image}`)}
+        alt={props.data.title}
+      />
+
       <div className={styles.contentContainer}>
         <h3>{props.data.title}</h3>
         <div>

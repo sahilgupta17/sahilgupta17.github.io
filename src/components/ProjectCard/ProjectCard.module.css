@@ -13,14 +13,16 @@
 
 .skillIcon {
   width: fit-content;
-  /* block-size: fit-content; */
   border-radius: 5px;
-  padding: 0.5em;
-  margin: 0.5em;
+  padding: 7px;
   align-items: center;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
 .projectImg {
   width: 100%;
+}
+
+.contentContainer {
+  margin-top: 15px;
 }
