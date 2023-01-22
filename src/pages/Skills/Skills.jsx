@@ -7,7 +7,7 @@ import { ThemeContext } from "../../App";
 import styles from "./Skills.module.css";
 
 const Skills = () => {
-  const { isDarkMode, toggleTheme } = React.useContext(ThemeContext);
+  const { isDarkMode } = React.useContext(ThemeContext);
 
   return (
     <div
