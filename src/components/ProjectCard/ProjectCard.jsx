@@ -16,7 +16,7 @@ const ProjectCard = (props) => {
     <div
       className={styles.container}
       style={{
-        backgroundColor: isDarkMode ? "#191919" : "#fff",
+        backgroundColor: isDarkMode ? "#202020" : "#fff",
         boxShadow: isDarkMode
           ? "rgba(0, 0, 0, 1) 0px 20px 30px"
           : "rgba(0, 0, 0, 0.5) 0px 5px 10px",
