@@ -6,6 +6,7 @@
   /* box-shadow: rgba(0, 0, 0, 1) 0px 20px 30px; */
   padding: 20px;
   border-radius: 0.5rem;
+  transition: transform 0.5s;
 }
 
 .projectImg {
@@ -60,4 +61,8 @@
   border-radius: 5px;
   padding: 0.25rem 0.5rem;
   align-items: center;
+}
+
+.container:hover {
+  transform: scale(1.05);
 }
