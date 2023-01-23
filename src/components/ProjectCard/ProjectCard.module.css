@@ -25,6 +25,30 @@
   border-radius: 10px;
 }
 
-.contentContainer {
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   margin-top: 15px;
+}
+
+.linksContainer {
+  padding-bottom: 10px;
+  margin-left: 10px;
+}
+
+.projectIcon {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: #191919;
+}
+
+.linksContainer a {
+  padding: 0px 5px;
+}
+
+.title {
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  font-weight: 700;
 }
