@@ -32,8 +32,8 @@ const ProjectCard = (props) => {
         <h2
           className={styles.title}
           style={{
-            color: isDarkMode ? "white" : "black",
-            opacity: 0.8,
+            color: isDarkMode ? "white" : "#334155",
+            opacity: isDarkMode ? 0.8 : 1,
           }}
         >
           {props.data.title}
@@ -108,9 +108,10 @@ const ProjectCard = (props) => {
 
       <div>
         <span
+          className={styles.description}
           style={{
-            color: isDarkMode ? "white" : "black",
-            opacity: 0.8,
+            color: isDarkMode ? "white" : "#334155",
+            opacity: isDarkMode ? 0.8 : 1,
           }}
         >
           {props.data.description}
@@ -120,13 +121,16 @@ const ProjectCard = (props) => {
         {props.data.techStack.map((skill, index) => (
           <div
             className={styles.skillIcon}
-            style={{ backgroundColor: isDarkMode ? "#303030" : "#fff" }}
+            style={{
+              backgroundColor: isDarkMode ? "#303030" : "#E0F2FE",
+              border: isDarkMode ? "1px solid #141414" : "0.5px solid #0EA5E9",
+            }}
             key={index}
           >
             <span
               style={{
-                color: isDarkMode ? "white" : "black",
-                opacity: 0.8,
+                color: isDarkMode ? "white" : "#0EA5E9",
+                opacity: isDarkMode ? 0.8 : 1,
               }}
             >
               {skill}

@@ -40,6 +40,10 @@
   padding: 0px 5px;
 }
 
+.description {
+  margin-top: 10px;
+  font-weight: 500;
+}
 .techStackContainer {
   display: flex;
   flex-direction: row;
