@@ -42,7 +42,13 @@
 
 .techStackContainer {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.techStackContainer > .skillIcon {
+  margin: 0px 10px 10px 0px;
 }
 
 .skillIcon {
