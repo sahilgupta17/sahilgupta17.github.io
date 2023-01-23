@@ -65,13 +65,25 @@ const Home = () => {
           <span>Software Engineer, Mobile Developer</span>
         </div>
         <div className={styles.socials}>
-          <a href="https://www.linkedin.com/in/sahilgupta17" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/sahilgupta17"
+            target="_blank"
+            rel="noreferrer"
+          >
             <FaLinkedinIn className={styles.socialsIcon} />
           </a>
-          <a href="https://github.com/sahilgupta17" target="_blank">
+          <a
+            href="https://github.com/sahilgupta17"
+            target="_blank"
+            rel="noreferrer"
+          >
             <FaGithub className={styles.socialsIcon} />
           </a>
-          <a href="mailto:gsahil2000.14@gmail.com" target="_blank">
+          <a
+            href="mailto:gsahil2000.14@gmail.com"
+            target="_blank"
+            rel="noreferrer"
+          >
             <MdEmail className={styles.socialsIcon} size={40} />
           </a>
         </div>
