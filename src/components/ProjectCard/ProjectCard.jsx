@@ -7,7 +7,6 @@ import {
   FaGooglePlay,
 } from "react-icons/fa";
 import { IoRocketSharp } from "react-icons/io5";
-
 import { ThemeContext } from "../../App";
 
 const ProjectCard = (props) => {
@@ -29,7 +28,7 @@ const ProjectCard = (props) => {
           className={styles.title}
           style={{
             color: isDarkMode ? "white" : "black",
-            opacity: isDarkMode ? 0.8 : 1,
+            opacity: 0.8,
           }}
         >
           {props.data.title}
@@ -41,7 +40,13 @@ const ProjectCard = (props) => {
               target="_blank"
               rel="noreferrer"
             >
-              <IoRocketSharp className={styles.projectIcon} />
+              <IoRocketSharp
+                className={styles.projectIcon}
+                style={{
+                  color: isDarkMode ? "white" : "black",
+                  opacity: 0.8,
+                }}
+              />
             </a>
           )}
           {props.data.gitHubUrl && (
@@ -50,7 +55,13 @@ const ProjectCard = (props) => {
               target="_blank"
               rel="noreferrer"
             >
-              <FaGithub className={styles.projectIcon} />
+              <FaGithub
+                className={styles.projectIcon}
+                style={{
+                  color: isDarkMode ? "white" : "black",
+                  opacity: 0.8,
+                }}
+              />
             </a>
           )}
 
@@ -60,7 +71,13 @@ const ProjectCard = (props) => {
               target="_blank"
               rel="noreferrer"
             >
-              <FaYoutube className={styles.projectIcon} />
+              <FaYoutube
+                className={styles.projectIcon}
+                style={{
+                  color: isDarkMode ? "white" : "black",
+                  opacity: 0.8,
+                }}
+              />
             </a>
           )}
           {props.data.appStore && (
@@ -69,7 +86,13 @@ const ProjectCard = (props) => {
               target="_blank"
               rel="noreferrer"
             >
-              <FaAppStoreIos className={styles.projectIcon} />
+              <FaAppStoreIos
+                className={styles.projectIcon}
+                style={{
+                  color: isDarkMode ? "white" : "black",
+                  opacity: 0.8,
+                }}
+              />
             </a>
           )}
           {props.data.googlePlayStore && (
@@ -78,7 +101,13 @@ const ProjectCard = (props) => {
               target="_blank"
               rel="noreferrer"
             >
-              <FaGooglePlay className={styles.projectIcon} />
+              <FaGooglePlay
+                className={styles.projectIcon}
+                style={{
+                  color: isDarkMode ? "white" : "black",
+                  opacity: 0.8,
+                }}
+              />
             </a>
           )}
         </div>
