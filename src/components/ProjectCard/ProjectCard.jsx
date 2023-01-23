@@ -40,11 +40,7 @@ const ProjectCard = (props) => {
         </h2>
         <div className={styles.linksContainer}>
           {props.data.liveUrl && (
-            <a
-              href="https://github.com/sahilgupta17"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href={`${props.data.liveUrl}`} target="_blank" rel="noreferrer">
               <IoRocketSharp
                 className={styles.projectIcon}
                 style={{
@@ -56,7 +52,7 @@ const ProjectCard = (props) => {
           )}
           {props.data.gitHubUrl && (
             <a
-              href="https://github.com/sahilgupta17"
+              href={`${props.data.gitHubUrl}`}
               target="_blank"
               rel="noreferrer"
             >
@@ -71,11 +67,7 @@ const ProjectCard = (props) => {
           )}
 
           {props.data.youtube && (
-            <a
-              href="https://github.com/sahilgupta17"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href={`${props.data.youtube}`} target="_blank" rel="noreferrer">
               <FaYoutube
                 className={styles.projectIcon}
                 style={{
@@ -86,11 +78,7 @@ const ProjectCard = (props) => {
             </a>
           )}
           {props.data.appStore && (
-            <a
-              href="https://github.com/sahilgupta17"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href={`${props.data.appStore}`} target="_blank" rel="noreferrer">
               <FaAppStoreIos
                 className={styles.projectIcon}
                 style={{
@@ -102,7 +90,7 @@ const ProjectCard = (props) => {
           )}
           {props.data.googlePlayStore && (
             <a
-              href="https://github.com/sahilgupta17"
+              href={`${props.data.googlePlayStore}`}
               target="_blank"
               rel="noreferrer"
             >
