@@ -15,7 +15,7 @@ const ProjectCard = (props) => {
   return (
     <div
       className={styles.container}
-      style={{ backgroundColor: isDarkMode ? "#090909" : "#fff" }}
+      style={{ backgroundColor: isDarkMode ? "#191919" : "#fff" }}
     >
       <img
         className={styles.projectImg}
@@ -117,7 +117,7 @@ const ProjectCard = (props) => {
         <span
           style={{
             color: isDarkMode ? "white" : "black",
-            opacity: isDarkMode ? 0.8 : 1,
+            opacity: 0.8,
           }}
         >
           {props.data.description}
@@ -133,7 +133,7 @@ const ProjectCard = (props) => {
             <span
               style={{
                 color: isDarkMode ? "white" : "black",
-                opacity: isDarkMode ? 0.8 : 1,
+                opacity: 0.8,
               }}
             >
               {skill}
