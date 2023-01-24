@@ -11,3 +11,7 @@
   flex-wrap: wrap;
   justify-content: center;
 }
+
+.projectsContainer > * {
+  margin: 0px 20px 40px 20px;
+}

@@ -81,6 +81,11 @@
         "name": "Git",
         "logo": "Git",
         "alt": "Git Logo"
+      },
+      {
+        "name": "Linux",
+        "logo": "Linux",
+        "alt": "Linux Logo"
       }
     ]
   },
