@@ -1,6 +1,6 @@
 # Personal Website
 
-![Personal Website Display](https://raw.githubusercontent.com/sahilgupta17/sahilgupta17.github.io/main/assets/images/generalwebsite-display.png)
+![Personal Website Display](https://raw.githubusercontent.com/sahilgupta17/sahilgupta17.github.io/main/assets/images/general/website-display.png)
 
 # Tech Stack
 
