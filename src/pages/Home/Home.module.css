@@ -1,7 +1,7 @@
 .container {
   display: flex;
   flex-direction: column;
-  min-height: calc(100vh - 3.5em);
+  min-height: 100vh;
   justify-content: center;
   background-position: center !important;
   background-size: cover !important;

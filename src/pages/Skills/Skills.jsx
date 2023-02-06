@@ -13,6 +13,7 @@ const Skills = () => {
     <div
       className={styles.container}
       style={{ backgroundColor: isDarkMode ? "#121212" : "#f9f9f9" }}
+      id="skills"
     >
       <Header title="Skills" />
       <div className={styles.content}>

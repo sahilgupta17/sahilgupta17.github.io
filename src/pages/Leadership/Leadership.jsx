@@ -2,7 +2,7 @@ import React from "react";
 
 const Leadership = () => {
   return (
-    <div>
+    <div id="leadership">
       <h1>Leadership</h1>
     </div>
   );

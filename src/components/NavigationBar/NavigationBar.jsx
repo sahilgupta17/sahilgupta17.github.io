@@ -9,9 +9,18 @@ const NavigationBar = (props) => {
   const [expanded, setExpanded] = useState(false);
   const { isDarkMode, toggleTheme } = React.useContext(ThemeContext);
 
+  const navigationLinks = [
+    "home",
+    "skills",
+    "experience",
+    "projects",
+    // "leadership",
+    // "achievements",
+  ];
+
   return (
     <Navbar
-      sticky="top"
+      fixed="top"
       expanded={expanded}
       variant="dark"
       expand="lg"
@@ -36,48 +45,19 @@ const NavigationBar = (props) => {
             activeKey={props.currentTab}
             onSelect={(key) => props.setCurrentTab(key)}
           >
-            <Nav.Link
-              eventKey="home"
-              className={styles.navLink}
-              onClick={() => setExpanded(false)}
-            >
-              Home
-            </Nav.Link>
-            <Nav.Link
-              eventKey="skills"
-              className={styles.navLink}
-              onClick={() => setExpanded(false)}
-            >
-              Skills
-            </Nav.Link>
-            <Nav.Link
-              eventKey="experience"
-              className={styles.navLink}
-              onClick={() => setExpanded(false)}
-            >
-              Experience
-            </Nav.Link>
-            <Nav.Link
-              eventKey="projects"
-              className={styles.navLink}
-              onClick={() => setExpanded(false)}
-            >
-              Projects
-            </Nav.Link>
-            <Nav.Link
-              eventKey="leadership"
-              className={styles.navLink}
-              onClick={() => setExpanded(false)}
-            >
-              Leadership
-            </Nav.Link>
-            <Nav.Link
-              eventKey="achievements"
-              className={styles.navLink}
-              onClick={() => setExpanded(false)}
-            >
-              Achievements
-            </Nav.Link>
+            {navigationLinks.map((link) => {
+              return (
+                <Nav.Link
+                  eventKey={link}
+                  href={`#${link}`}
+                  className={styles.navLink}
+                  onClick={() => setExpanded(false)}
+                >
+                  {link.charAt(0).toUpperCase() + link.slice(1)}
+                </Nav.Link>
+              );
+            })}
+
             <div>
               {isDarkMode ? (
                 <MdOutlineDarkMode

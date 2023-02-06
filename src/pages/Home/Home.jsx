@@ -50,6 +50,7 @@ const Home = () => {
     <div
       className={styles.container}
       style={{ background: `url(${backgroundImage})` }}
+      id="home"
     >
       <div className={styles.content}>
         <ImageHolder
