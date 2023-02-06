@@ -78,7 +78,7 @@ const NavigationBar = (props) => {
             >
               Achievements
             </Nav.Link>
-            <div>
+            <Nav.Link className={styles.navLink}>
               {isDarkMode ? (
                 <MdOutlineDarkMode
                   className={styles.themeButton}
@@ -92,7 +92,7 @@ const NavigationBar = (props) => {
                   onClick={toggleTheme}
                 />
               )}
-            </div>
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
