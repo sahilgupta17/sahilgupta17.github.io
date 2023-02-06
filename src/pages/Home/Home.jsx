@@ -57,7 +57,7 @@ const Home = () => {
           primarySource={ProfessionalHeadshot}
           secondarySource={FallbackProfessionalHeadshot}
           alt="Professional Headshot of Sahil Gupta"
-          className={styles.professionalHeadshot}
+          imageClassName={styles.professionalHeadshot}
         />
         <div className={styles.title}>
           <span>Sahil Gupta</span>

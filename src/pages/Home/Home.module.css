@@ -19,6 +19,7 @@
 
 .professionalHeadshot {
   height: 12em;
+  width: 12em;
   border-radius: 50%;
   border: 3px solid #fff;
 }
