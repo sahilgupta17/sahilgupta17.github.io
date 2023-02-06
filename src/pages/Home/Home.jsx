@@ -90,7 +90,7 @@ const Home = () => {
         </div>
         <a href="/Resume.pdf" target="_blank" rel="noreferrer">
           <Button className={styles.resumeButton}>
-            <FaFileDownload className={styles.resumeIcon} /> Resume
+            <FaFileDownload className={styles.resumeIcon} /> Résumé
           </Button>
         </a>
       </div>
