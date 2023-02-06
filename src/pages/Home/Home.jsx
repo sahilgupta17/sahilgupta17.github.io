@@ -12,9 +12,10 @@ import {
   DelhiBackgroundImg1,
   DelhiBackgroundImg2,
 } from "../../assets/images";
-import { FaLinkedinIn, FaGithub } from "react-icons/fa";
+import { FaLinkedinIn, FaGithub, FaFileDownload } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import styles from "./Home.module.css";
+import { Button } from "react-bootstrap";
 
 const Home = () => {
   const [location, setLocation] = useState("Delhi, India");
@@ -87,6 +88,11 @@ const Home = () => {
             <MdEmail className={styles.socialsIcon} size={40} />
           </a>
         </div>
+        <a href="/Resume.pdf" target="_blank" rel="noreferrer">
+          <Button className={styles.resumeButton}>
+            <FaFileDownload className={styles.resumeIcon} /> Resume
+          </Button>
+        </a>
       </div>
 
       <div className={styles.location}>{location}</div>
