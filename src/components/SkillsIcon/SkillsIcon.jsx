@@ -3,11 +3,16 @@ import styles from "./SkillsIcon.module.css";
 import { ThemeContext } from "../../App";
 
 const SkillsIcon = (props) => {
-  const { isDarkMode, toggleTheme } = React.useContext(ThemeContext);
+  const { isDarkMode } = React.useContext(ThemeContext);
   return (
     <div
       className={styles.container}
-      style={{ backgroundColor: isDarkMode ? "#303030" : "#fff" }}
+      style={{
+        backgroundColor: isDarkMode ? "#252525" : "#fff",
+        boxShadow: isDarkMode
+          ? "rgba(0, 0, 0, 0.8) 0px 7px 10px"
+          : "rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px",
+      }}
     >
       <img
         className={styles.iconImg}

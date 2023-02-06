@@ -12,9 +12,10 @@ import {
   DelhiBackgroundImg1,
   DelhiBackgroundImg2,
 } from "../../assets/images";
-import { FaLinkedinIn, FaGithub } from "react-icons/fa";
+import { FaLinkedinIn, FaGithub, FaFileDownload } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import styles from "./Home.module.css";
+import { Button } from "react-bootstrap";
 
 const Home = () => {
   const [location, setLocation] = useState("Delhi, India");
@@ -56,7 +57,7 @@ const Home = () => {
           primarySource={ProfessionalHeadshot}
           secondarySource={FallbackProfessionalHeadshot}
           alt="Professional Headshot of Sahil Gupta"
-          className={styles.professionalHeadshot}
+          imageClassName={styles.professionalHeadshot}
         />
         <div className={styles.title}>
           <span>Sahil Gupta</span>
@@ -65,16 +66,33 @@ const Home = () => {
           <span>Software Engineer, Mobile Developer</span>
         </div>
         <div className={styles.socials}>
-          <a href="https://www.linkedin.com/in/sahilgupta17" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/sahilgupta17"
+            target="_blank"
+            rel="noreferrer"
+          >
             <FaLinkedinIn className={styles.socialsIcon} />
           </a>
-          <a href="https://github.com/sahilgupta17" target="_blank">
+          <a
+            href="https://github.com/sahilgupta17"
+            target="_blank"
+            rel="noreferrer"
+          >
             <FaGithub className={styles.socialsIcon} />
           </a>
-          <a href="mailto:gsahil2000.14@gmail.com" target="_blank">
+          <a
+            href="mailto:gsahil2000.14@gmail.com"
+            target="_blank"
+            rel="noreferrer"
+          >
             <MdEmail className={styles.socialsIcon} size={40} />
           </a>
         </div>
+        <a href="/Resume.pdf" target="_blank" rel="noreferrer">
+          <Button className={styles.resumeButton}>
+            <FaFileDownload className={styles.resumeIcon} /> Résumé
+          </Button>
+        </a>
       </div>
 
       <div className={styles.location}>{location}</div>

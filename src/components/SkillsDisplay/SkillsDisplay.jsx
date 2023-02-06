@@ -4,7 +4,7 @@ import { ThemeContext } from "../../App";
 import SkillsIcon from "../SkillsIcon/SkillsIcon";
 
 const SkillsDisplay = (props) => {
-  const { isDarkMode, toggleTheme } = React.useContext(ThemeContext);
+  const { isDarkMode } = React.useContext(ThemeContext);
 
   return (
     <div className={styles.container}>
