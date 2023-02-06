@@ -81,13 +81,13 @@ const NavigationBar = (props) => {
             <div>
               {isDarkMode ? (
                 <MdOutlineDarkMode
-                  color="rgba(255, 255, 255, 0.6)"
+                  className={styles.themeButton}
                   size={25}
                   onClick={toggleTheme}
                 />
               ) : (
                 <MdOutlineLightMode
-                  color="rgba(255, 255, 255, 0.6)"
+                  className={styles.themeButton}
                   size={25}
                   onClick={toggleTheme}
                 />
