@@ -6,6 +6,7 @@ import {
   FaAppStoreIos,
   FaGooglePlay,
 } from "react-icons/fa";
+import TechStackBar from "../TechStackBar/TechStackBar";
 import { IoRocketSharp } from "react-icons/io5";
 import { ThemeContext } from "../../App";
 
@@ -117,27 +118,7 @@ const ProjectCard = (props) => {
           {props.data.description}
         </span>
       </div>
-      <div className={styles.techStackContainer}>
-        {props.data.techStack.map((skill, index) => (
-          <div
-            className={styles.skillIcon}
-            style={{
-              backgroundColor: isDarkMode ? "#303030" : "#E0F2FE",
-              border: isDarkMode ? "1px solid #141414" : "0.5px solid #0EA5E9",
-            }}
-            key={index}
-          >
-            <span
-              style={{
-                color: isDarkMode ? "white" : "#0EA5E9",
-                opacity: isDarkMode ? 0.8 : 1,
-              }}
-            >
-              {skill}
-            </span>
-          </div>
-        ))}
-      </div>
+      <TechStackBar data={props.data} />
     </div>
   );
 };

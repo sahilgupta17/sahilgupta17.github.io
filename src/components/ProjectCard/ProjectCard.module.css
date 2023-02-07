@@ -45,23 +45,6 @@
   margin-top: 10px;
   font-weight: 500;
 }
-.techStackContainer {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin-top: 10px;
-}
-
-.techStackContainer > .skillIcon {
-  margin: 0px 10px 10px 0px;
-}
-
-.skillIcon {
-  width: fit-content;
-  border-radius: 5px;
-  padding: 0.25rem 0.5rem;
-  align-items: center;
-}
 
 .container:hover {
   transform: scale(1.05);
