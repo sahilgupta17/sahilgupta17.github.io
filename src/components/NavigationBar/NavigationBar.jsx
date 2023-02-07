@@ -83,13 +83,19 @@ const NavigationBar = (props) => {
                 <MdOutlineDarkMode
                   className={styles.themeButton}
                   size={25}
-                  onClick={toggleTheme}
+                  onClick={() => {
+                    setExpanded(false);
+                    toggleTheme();
+                  }}
                 />
               ) : (
                 <MdOutlineLightMode
                   className={styles.themeButton}
                   size={25}
-                  onClick={toggleTheme}
+                  onClick={() => {
+                    setExpanded(false);
+                    toggleTheme();
+                  }}
                 />
               )}
             </Nav.Link>
