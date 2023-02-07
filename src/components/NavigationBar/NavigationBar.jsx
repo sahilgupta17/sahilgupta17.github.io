@@ -14,8 +14,8 @@ const NavigationBar = (props) => {
     "skills",
     "experience",
     "projects",
-    "leadership",
-    "achievements",
+    // "leadership",
+    // "achievements",
   ];
 
   return (
