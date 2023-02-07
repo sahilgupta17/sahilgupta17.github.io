@@ -27,20 +27,6 @@
   font-weight: 700;
 }
 
-.linksContainer {
-  padding-bottom: 10px;
-  margin-left: 10px;
-}
-
-.projectIcon {
-  width: 1.5rem;
-  height: 1.5rem;
-}
-
-.linksContainer > a {
-  padding: 0px 5px;
-}
-
 .description {
   margin-top: 10px;
   font-weight: 500;
