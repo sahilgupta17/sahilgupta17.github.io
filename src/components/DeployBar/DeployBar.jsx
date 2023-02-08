@@ -12,67 +12,71 @@ import { ThemeContext } from "../../App";
 const DeployBar = (props) => {
   const { isDarkMode } = React.useContext(ThemeContext);
 
+  const deployLocations = {
+    liveUrl: (
+      <IoRocketSharp
+        className={styles.projectIcon}
+        style={{
+          color: isDarkMode ? "white" : "black",
+          opacity: 0.8,
+        }}
+      />
+    ),
+    gitHubUrl: (
+      <FaGithub
+        className={styles.projectIcon}
+        style={{
+          color: isDarkMode ? "white" : "black",
+          opacity: 0.8,
+        }}
+      />
+    ),
+    youtube: (
+      <FaYoutube
+        className={styles.projectIcon}
+        style={{
+          color: isDarkMode ? "white" : "black",
+          opacity: 0.8,
+        }}
+      />
+    ),
+    appStore: (
+      <FaAppStoreIos
+        className={styles.projectIcon}
+        style={{
+          color: isDarkMode ? "white" : "black",
+          opacity: 0.8,
+        }}
+      />
+    ),
+    googlePlayStore: (
+      <FaGooglePlay
+        className={styles.projectIcon}
+        style={{
+          color: isDarkMode ? "white" : "black",
+          opacity: 0.8,
+        }}
+      />
+    ),
+  };
+
   return (
     <div className={styles.linksContainer}>
-      {props.data.liveUrl && (
-        <a href={`${props.data.liveUrl}`} target="_blank" rel="noreferrer">
-          <IoRocketSharp
-            className={styles.projectIcon}
-            style={{
-              color: isDarkMode ? "white" : "black",
-              opacity: 0.8,
-            }}
-          />
-        </a>
-      )}
-      {props.data.gitHubUrl && (
-        <a href={`${props.data.gitHubUrl}`} target="_blank" rel="noreferrer">
-          <FaGithub
-            className={styles.projectIcon}
-            style={{
-              color: isDarkMode ? "white" : "black",
-              opacity: 0.8,
-            }}
-          />
-        </a>
-      )}
-      {props.data.youtube && (
-        <a href={`${props.data.youtube}`} target="_blank" rel="noreferrer">
-          <FaYoutube
-            className={styles.projectIcon}
-            style={{
-              color: isDarkMode ? "white" : "black",
-              opacity: 0.8,
-            }}
-          />
-        </a>
-      )}
-      {props.data.appStore && (
-        <a href={`${props.data.appStore}`} target="_blank" rel="noreferrer">
-          <FaAppStoreIos
-            className={styles.projectIcon}
-            style={{
-              color: isDarkMode ? "white" : "black",
-              opacity: 0.8,
-            }}
-          />
-        </a>
-      )}
-      {props.data.googlePlayStore && (
-        <a
-          href={`${props.data.googlePlayStore}`}
-          target="_blank"
-          rel="noreferrer"
-        >
-          <FaGooglePlay
-            className={styles.projectIcon}
-            style={{
-              color: isDarkMode ? "white" : "black",
-              opacity: 0.8,
-            }}
-          />
-        </a>
-      )}
+      {Object.keys(deployLocations)
+        .filter((location) => {
+          return props.data[location] ? true : false;
+        })
+        .map((location) => {
+          return (
+            <a
+              href={`${props.data[location]}`}
+              target="_blank"
+              rel="noreferrer"
+            >
+              {deployLocations[location]}
+            </a>
+          );
+        })}
     </div>
   );
 };
