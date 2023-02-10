@@ -3,7 +3,7 @@ import styles from "./Header.module.css";
 import { ThemeContext } from "../../App";
 
 const Header = (props) => {
-  const { isDarkMode, toggleTheme } = React.useContext(ThemeContext);
+  const { isDarkMode } = React.useContext(ThemeContext);
 
   return (
     <div className={styles.header}>

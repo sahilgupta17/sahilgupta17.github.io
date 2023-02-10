@@ -45,6 +45,7 @@ const Home = () => {
     setBackgroundImage(selectedBackgroundImage);
     const locationName = selectedBackgroundImage.split("-")[1];
     setLocation(locationDict[locationName]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
