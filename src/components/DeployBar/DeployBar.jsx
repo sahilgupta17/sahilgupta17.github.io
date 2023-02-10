@@ -15,11 +15,10 @@ const DeployBar = (props) => {
   const deployLocations = {
     liveUrl: (
       <IoRocketSharp
-        className={styles.projectIcon}
         style={{
           color: isDarkMode ? "white" : "black",
-          opacity: 0.8,
         }}
+        className={styles.projectIcon}
       />
     ),
     gitHubUrl: (
@@ -27,7 +26,6 @@ const DeployBar = (props) => {
         className={styles.projectIcon}
         style={{
           color: isDarkMode ? "white" : "black",
-          opacity: 0.8,
         }}
       />
     ),
@@ -36,7 +34,6 @@ const DeployBar = (props) => {
         className={styles.projectIcon}
         style={{
           color: isDarkMode ? "white" : "black",
-          opacity: 0.8,
         }}
       />
     ),
@@ -45,7 +42,6 @@ const DeployBar = (props) => {
         className={styles.projectIcon}
         style={{
           color: isDarkMode ? "white" : "black",
-          opacity: 0.8,
         }}
       />
     ),
@@ -54,7 +50,6 @@ const DeployBar = (props) => {
         className={styles.projectIcon}
         style={{
           color: isDarkMode ? "white" : "black",
-          opacity: 0.8,
         }}
       />
     ),

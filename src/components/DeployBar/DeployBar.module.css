@@ -6,6 +6,10 @@
 .projectIcon {
   width: 1.5rem;
   height: 1.5rem;
+  opacity: 0.8;
+}
+
+.projectIcon:hover {
 }
 
 .linksContainer > a {
