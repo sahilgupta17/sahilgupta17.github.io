@@ -1,7 +1,7 @@
 import React from "react";
 import { ThemeContext } from "../../App";
 import ExperienceCard from "../../components/ExperienceCard/ExperienceCard";
-import { MdWork, MdWorkOutline } from "react-icons/md";
+import { MdWork } from "react-icons/md";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -13,7 +13,7 @@ import styles from "./Experience.module.css";
 import { calcDuration } from "../../utils/helper";
 
 const Experience = () => {
-  const { isDarkMode, toggleTheme } = React.useContext(ThemeContext);
+  const { isDarkMode } = React.useContext(ThemeContext);
   const darkThemeContentArrowStyle = {
     borderRight: "7px solid  rgb(48, 48, 48)",
   };
