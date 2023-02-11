@@ -7,7 +7,7 @@ const TechStackBar = (props) => {
 
   return (
     <div className={styles.techStackContainer}>
-      {props.data.techStack.map((skill, index) => (
+      {props.data.map((skill, index) => (
         <div
           className={styles.skillIcon}
           style={{

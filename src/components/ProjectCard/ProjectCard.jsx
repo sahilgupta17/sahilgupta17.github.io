@@ -47,7 +47,7 @@ const ProjectCard = (props) => {
           {props.data.description}
         </span>
       </div>
-      <TechStackBar data={props.data} />
+      <TechStackBar data={props.data.techStack} />
     </div>
   );
 };
