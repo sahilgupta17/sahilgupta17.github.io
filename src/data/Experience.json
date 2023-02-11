@@ -10,6 +10,8 @@
       "Incorporated deep linking for seamless navigation between the mobile application and external sources",
       "Added 6+ new features, raised 15+ issues, and resolved 12+ bugs"
     ],
+    "googlePlayStore": "https://play.google.com/store/apps/details?id=com.audioshelfapp",
+    "appStore": "https://apps.apple.com/us/app/audioshelf/id6443459241",
     "skills": ["React Native", "TypeScript"],
     "logo": "AudioShelf.webp"
   },

@@ -31,17 +31,18 @@ const Experience = () => {
           <VerticalTimelineElement
             key={index}
             date={experience.duration}
-            dateClassName="date"
+            dateClassName={isDarkMode ? styles.darkText : styles.lightText}
             icon={<MdWork />}
             iconStyle={{
               background: "#06D6A0",
             }}
             contentStyle={{
-              background: isDarkMode ? "#303030" : "#fff",
-              color: isDarkMode ? "white" : "black",
-              opacity: isDarkMode ? 0.8 : 1,
-              boxShadow: "0 0 0",
+              background: isDarkMode ? "#191919" : "#fff",
+              boxShadow: isDarkMode
+                ? "rgba(0, 0, 0, 1) 0px 20px 30px"
+                : "rgba(0, 0, 0, 0.5) 0px 5px 10px",
             }}
+            className={styles.verticalTimelineElement}
             contentArrowStyle={
               isDarkMode
                 ? darkThemeContentArrowStyle
