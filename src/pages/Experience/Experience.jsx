@@ -15,7 +15,7 @@ import { calcDuration } from "../../utils/helper";
 const Experience = () => {
   const { isDarkMode } = React.useContext(ThemeContext);
   const darkThemeContentArrowStyle = {
-    borderRight: "7px solid  rgb(48, 48, 48)",
+    borderRight: "7px solid  rgb(25, 25, 25)",
   };
   const lightThemeContentArrowStyle = {
     borderRight: "7px solid  rgb(249, 249, 249)",
