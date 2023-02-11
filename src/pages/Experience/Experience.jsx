@@ -10,6 +10,7 @@ import ExperienceJSON from "../../data/Experience.json";
 import Header from "../../components/Header/Header";
 import "react-vertical-timeline-component/style.min.css";
 import styles from "./Experience.module.css";
+import { calcDuration } from "../../utils/helper";
 
 const Experience = () => {
   const { isDarkMode, toggleTheme } = React.useContext(ThemeContext);
@@ -30,7 +31,9 @@ const Experience = () => {
         {ExperienceJSON.map((experience, index) => (
           <VerticalTimelineElement
             key={index}
-            date={experience.duration}
+            date={`${experience.duration} • ${calcDuration(
+              experience.duration
+            )}`}
             dateClassName={isDarkMode ? styles.darkText : styles.lightText}
             icon={<MdWork />}
             iconStyle={{

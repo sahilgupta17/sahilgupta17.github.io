@@ -22,7 +22,7 @@ const ExperienceCard = (props) => {
         color: isDarkMode ? "rgba(255, 255, 255, 0.8)" : "rgba(0, 0, 0, 1)",
       }}
     >
-      <div className={styles.titleContainer}>
+      <div className={styles.logoContainer}>
         <img
           className={styles.logoImg}
           src={require(`../../assets/images/experience/${props.data.logo}`)}
