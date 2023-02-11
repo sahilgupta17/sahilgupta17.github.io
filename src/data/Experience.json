@@ -3,79 +3,64 @@
     "title": "Frontend Intern",
     "organization": "AudioShelf",
     "location": "Amherst, Massachusetts, U.S.A.",
-    "duration": "Nov 2022 - Feb 2022",
-    "skills": ["React Native", "TypeScript"],
+    "duration": "Nov 2022 - Feb 2023",
     "description": [
-      "Creating the next generation platform for streaming audio content using React Native",
-      "Enhanced app performance by implementing caching in the app with automatic updates occurring when required",
-      "Added new features, raised issues, and resolved bugs"
+      "Built the next generation platform for streaming audio books using React Native in TypeScript",
+      "Implemented caching in the app, which reduced server load by 30% thus improving app performance and user experience",
+      "Incorporated deep linking for seamless navigation between the mobile application and external sources",
+      "Added 6+ new features, raised 15+ issues, and resolved 12+ bugs"
     ],
-    "websiteURL": "https://getaudioshelf.com/",
-    "logo": "AudioShelf.webp",
-    "alt": "AudioShelf Logo"
+    "skills": ["React Native", "TypeScript"],
+    "logo": "AudioShelf"
   },
   {
     "title": "Software Engineeer Intern",
     "organization": "Altius Strategic Consulting",
     "location": "California, U.S.A.",
     "duration": "May 2022 - Aug 2022",
-    "skills": [
-      "Android App Development",
-      "Firebase",
-      "AWS DynamoDB",
-      "AWS S3",
-      "AWS Lambda"
-    ],
     "description": [
       "Transformed existing Machine Learning pipelines using Java ML Kit to perform on-device processing on Android",
       "Architected cloud services through AWS Lambda, DynamoDB, API Gateway, S3 into the mobile application",
       "Developed client-facing user interface and implemented user authentication via Firebase"
     ],
-    "websiteURL": "https://www.altius.org/",
-    "logo": "ASC.webp",
-    "alt": "Altius Strategic Consulting Logo"
+    "skills": ["Android", "Java", "AWS", "Firebase"],
+    "logo": "ASC"
   },
   {
     "title": "Software Developer",
     "organization": "CICSoft",
     "location": "Amherst, Massachusetts, U.S.A.",
     "duration": "Feb 2022 - Present",
-    "skills": [],
     "description": [
       "Developed and integrated new features for the organization",
       "Conducted bootcamp sessions for 50 students on Android and React Native which enabled them to learn and explore the field of mobile development"
     ],
-    "websiteURL": "https://umass-cicsoft.github.io/",
-    "logo": "CICSoft.webp",
-    "alt": "CICSoft Logo"
+    "skills": ["React", "Firebase"],
+    "logo": "CICSoft"
   },
   {
     "title": "Undergraduate Research Volunteer",
     "organization": "University of Massacusetts Amherst",
     "location": "Amherst, Massachusetts, U.S.A.",
     "duration": "Dec 2021 - Jan 2022",
-    "skills": ["Python", "Machine Learning"],
     "description": [
       "Developed an image classification model on CIFAR-10 dataset using neural network",
       "Transformed images to word embedding using gloVe word embedding",
       "Utilized cosine similarity between word embedding as metric for classification"
     ],
-    "websiteURL": "https://www.cics.umass.edu/",
-    "logo": "UMass-Amherst.webp",
-    "alt": "University of Massacusetts Amherst Logo"
+    "skills": ["Python", "Machine Learning"],
+    "logo": "UMass-Amherst"
   },
   {
     "title": "Software Engineer Intern",
     "organization": "KPMG",
     "location": "Harayana, India",
     "duration": "May 2021 - Aug 2021",
-    "skills": ["Python", "Machine Learning", "Web Scraping"],
     "description": [
       "Developed a web scraper in Python, using Beautiful Soup library which scraped news articles based on provided keywords",
       "Implemented Machine Learning algorithms on different data sets along with hyperparameter tuning for higher efficiency"
     ],
-    "websiteURL": "https://home.kpmg/in/en/home.html",
-    "logo": "KPMG.webp",
-    "alt": "KPMG Logo"
+    "skills": ["Python", "Machine Learning", "Beautiful Soup"],
+    "logo": "KPMG"
   }
 ]
