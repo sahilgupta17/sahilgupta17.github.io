@@ -40,6 +40,7 @@ const Experience = () => {
               background: isDarkMode ? "#303030" : "#fff",
               color: isDarkMode ? "white" : "black",
               opacity: isDarkMode ? 0.8 : 1,
+              boxShadow: "0 0 0",
             }}
             contentArrowStyle={
               isDarkMode

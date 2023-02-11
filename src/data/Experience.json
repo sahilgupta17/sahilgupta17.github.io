@@ -11,7 +11,7 @@
       "Added 6+ new features, raised 15+ issues, and resolved 12+ bugs"
     ],
     "skills": ["React Native", "TypeScript"],
-    "logo": "AudioShelf"
+    "logo": "AudioShelf.webp"
   },
   {
     "title": "Software Engineeer Intern",
@@ -24,7 +24,7 @@
       "Developed client-facing user interface and implemented user authentication via Firebase"
     ],
     "skills": ["Android", "Java", "AWS", "Firebase"],
-    "logo": "ASC"
+    "logo": "ASC.webp"
   },
   {
     "title": "Software Developer",
@@ -36,7 +36,7 @@
       "Conducted bootcamp sessions for 50 students on Android and React Native which enabled them to learn and explore the field of mobile development"
     ],
     "skills": ["React", "Firebase"],
-    "logo": "CICSoft"
+    "logo": "CICSoft.webp"
   },
   {
     "title": "Undergraduate Research Volunteer",
@@ -49,7 +49,7 @@
       "Utilized cosine similarity between word embedding as metric for classification"
     ],
     "skills": ["Python", "Machine Learning"],
-    "logo": "UMass-Amherst"
+    "logo": "UMass-Amherst.webp"
   },
   {
     "title": "Software Engineer Intern",
@@ -61,6 +61,6 @@
       "Implemented Machine Learning algorithms on different data sets along with hyperparameter tuning for higher efficiency"
     ],
     "skills": ["Python", "Machine Learning", "Beautiful Soup"],
-    "logo": "KPMG"
+    "logo": "KPMG.webp"
   }
 ]
