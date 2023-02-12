@@ -46,7 +46,7 @@ const ExperienceCard = (props) => {
       )}
       <div className={styles.footer}>
         <Button
-          className={styles.descriptionButton}
+          variant={isDarkMode ? "dark" : "primary"}
           onClick={onDescriptionButtonClick}
         >
           {props.activeCardId === props.id ? "View Less" : "View More"}

@@ -1,9 +1,6 @@
 .container {
   display: flex;
   flex-direction: column;
-  /* background-color: white; */
-  /* box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-  padding: 10px 15px 10px 15px; */
 }
 
 .logoContainer {
@@ -40,6 +37,11 @@
 .footer {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  margin-top: 30px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.description {
+  margin-top: 20px;
 }
