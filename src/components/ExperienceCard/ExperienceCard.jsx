@@ -9,10 +9,13 @@ import { ThemeContext } from "../../App";
 const ExperienceCard = (props) => {
   const { isDarkMode } = React.useContext(ThemeContext);
   const description = props.data.description.map((item) => <li>{item}</li>);
-  const [displayDescription, setDisplayDescription] = React.useState(false);
 
   const onDescriptionButtonClick = () => {
-    setDisplayDescription(!displayDescription);
+    if (props.activeCardId === props.id) {
+      props.setActiveCardId(null);
+      return;
+    }
+    props.setActiveCardId(props.id);
   };
 
   return (
@@ -36,7 +39,7 @@ const ExperienceCard = (props) => {
       </div>
       <span className={styles.location}>{props.data.location}</span>
       <TechStackBar data={props.data.skills} />
-      {displayDescription && (
+      {props.activeCardId === props.id && (
         <div className={styles.description}>
           <ul>{description}</ul>
         </div>
@@ -46,7 +49,7 @@ const ExperienceCard = (props) => {
           className={styles.descriptionButton}
           onClick={onDescriptionButtonClick}
         >
-          View Description
+          {props.activeCardId === props.id ? "View Less" : "View More"}
         </Button>
       </div>
     </div>

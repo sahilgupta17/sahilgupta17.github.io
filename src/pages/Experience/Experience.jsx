@@ -14,6 +14,7 @@ import { calcDuration } from "../../utils/helper";
 
 const Experience = () => {
   const { isDarkMode } = React.useContext(ThemeContext);
+  const [activeCardId, setActiveCardId] = React.useState(null);
   const darkThemeContentArrowStyle = {
     borderRight: "7px solid  rgb(25, 25, 25)",
   };
@@ -51,7 +52,13 @@ const Experience = () => {
                 : lightThemeContentArrowStyle
             }
           >
-            <ExperienceCard key={index} data={experience} />
+            <ExperienceCard
+              key={index}
+              id={experience.id}
+              data={experience}
+              activeCardId={activeCardId}
+              setActiveCardId={setActiveCardId}
+            />
           </VerticalTimelineElement>
         ))}
       </VerticalTimeline>
