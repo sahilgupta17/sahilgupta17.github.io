@@ -5,13 +5,6 @@
   background-color: #3da3d5;
 }
 
-.verticalTimelineElement {
-  transition: transform 0.5s;
-}
-.verticalTimelineElement:hover {
-  transform: scale(1.05);
-}
-
 .darkText {
   color: rgba(255, 255, 255, 0.8);
 }
