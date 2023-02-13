@@ -36,6 +36,11 @@
         "name": "C++",
         "logo": "CPP.webp",
         "alt": "CPP Logo"
+      },
+      {
+        "name": "C",
+        "logo": "C.webp",
+        "alt": "C Logo"
       }
     ]
   },
@@ -56,6 +61,11 @@
         "name": "Selenium",
         "logo": "Selenium.webp",
         "alt": "Selenium Logo"
+      },
+      {
+        "name": "Node.js",
+        "logo": "NodeJS.webp",
+        "alt": "Node.js Logo"
       }
     ]
   },
