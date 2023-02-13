@@ -10,6 +10,7 @@ import ExperienceJSON from "../../data/Experience.json";
 import Header from "../../components/Header/Header";
 import "react-vertical-timeline-component/style.min.css";
 import styles from "./Experience.module.css";
+import { sortExperience } from "../../utils/helper";
 import { calcDuration } from "../../utils/helper";
 
 const Experience = () => {
@@ -29,7 +30,7 @@ const Experience = () => {
     >
       <Header title="Experience" />
       <VerticalTimeline>
-        {ExperienceJSON.map((experience, index) => (
+        {sortExperience(ExperienceJSON).map((experience, index) => (
           <VerticalTimelineElement
             key={index}
             date={`${experience.duration} • ${calcDuration(

@@ -1,18 +1,5 @@
 [
   {
-    "id": 3,
-    "title": "Software Developer",
-    "organization": "CICSoft",
-    "location": "Amherst, Massachusetts, U.S.A.",
-    "duration": "Feb 2022 - Present",
-    "description": [
-      "Developed and integrated new features for the organization",
-      "Conducted bootcamp sessions for 50 students on Android and React Native which enabled them to learn and explore the field of mobile development"
-    ],
-    "skills": ["React", "Firebase"],
-    "logo": "CICSoft.webp"
-  },
-  {
     "id": 5,
     "title": "Frontend Intern",
     "organization": "AudioShelf",
@@ -43,7 +30,19 @@
     "skills": ["Android", "Java", "AWS", "Firebase"],
     "logo": "ASC.webp"
   },
-
+  {
+    "id": 3,
+    "title": "Software Developer",
+    "organization": "CICSoft",
+    "location": "Amherst, Massachusetts, U.S.A.",
+    "duration": "Feb 2022 - Present",
+    "description": [
+      "Developed and integrated new features for the organization",
+      "Conducted bootcamp sessions for 50 students on Android and React Native which enabled them to learn and explore the field of mobile development"
+    ],
+    "skills": ["React", "Firebase"],
+    "logo": "CICSoft.webp"
+  },
   {
     "id": 2,
     "title": "Undergraduate Research Volunteer",
