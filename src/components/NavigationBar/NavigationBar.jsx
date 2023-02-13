@@ -56,25 +56,17 @@ const NavigationBar = (props) => {
                 </Nav.Link>
               );
             })}
-            <Nav.Link className={styles.navLink}>
+            <Nav.Link
+              className={styles.navLink}
+              onClick={() => {
+                setExpanded(false);
+                toggleTheme();
+              }}
+            >
               {isDarkMode ? (
-                <MdOutlineDarkMode
-                  className={styles.themeButton}
-                  size={25}
-                  onClick={() => {
-                    setExpanded(false);
-                    toggleTheme();
-                  }}
-                />
+                <MdOutlineDarkMode className={styles.themeButton} size={25} />
               ) : (
-                <MdOutlineLightMode
-                  className={styles.themeButton}
-                  size={25}
-                  onClick={() => {
-                    setExpanded(false);
-                    toggleTheme();
-                  }}
-                />
+                <MdOutlineLightMode className={styles.themeButton} size={25} />
               )}
             </Nav.Link>
           </Nav>
