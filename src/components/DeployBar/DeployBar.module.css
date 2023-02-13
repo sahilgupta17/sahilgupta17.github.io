@@ -1,0 +1,14 @@
+.linksContainer {
+  padding-bottom: 10px;
+  margin-left: 10px;
+}
+
+.projectIcon {
+  width: 1.5rem;
+  height: 1.5rem;
+  opacity: 0.8;
+}
+
+.linksContainer > a {
+  padding: 0px 5px;
+}

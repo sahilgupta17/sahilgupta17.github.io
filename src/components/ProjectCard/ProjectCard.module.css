@@ -4,7 +4,7 @@
   width: 350px;
   /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
   /* box-shadow: rgba(0, 0, 0, 1) 0px 20px 30px; */
-  padding: 20px;
+  padding: 15px;
   border-radius: 0.5rem;
   transition: transform 0.5s;
 }
@@ -27,40 +27,9 @@
   font-weight: 700;
 }
 
-.linksContainer {
-  padding-bottom: 10px;
-  margin-left: 10px;
-}
-
-.projectIcon {
-  width: 1.5rem;
-  height: 1.5rem;
-}
-
-.linksContainer > a {
-  padding: 0px 5px;
-}
-
 .description {
-  margin-top: 10px;
+  margin: 10px 0px;
   font-weight: 500;
-}
-.techStackContainer {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin-top: 10px;
-}
-
-.techStackContainer > .skillIcon {
-  margin: 0px 10px 10px 0px;
-}
-
-.skillIcon {
-  width: fit-content;
-  border-radius: 5px;
-  padding: 0.25rem 0.5rem;
-  align-items: center;
 }
 
 .container:hover {

@@ -49,7 +49,6 @@ const NavigationBar = (props) => {
               return (
                 <Nav.Link
                   eventKey={link}
-                  href={`#${link}`}
                   className={styles.navLink}
                   onClick={() => setExpanded(false)}
                 >
@@ -57,22 +56,19 @@ const NavigationBar = (props) => {
                 </Nav.Link>
               );
             })}
-
-            <div>
+            <Nav.Link
+              className={styles.navLink}
+              onClick={() => {
+                setExpanded(false);
+                toggleTheme();
+              }}
+            >
               {isDarkMode ? (
-                <MdOutlineDarkMode
-                  color="rgba(255, 255, 255, 0.6)"
-                  size={25}
-                  onClick={toggleTheme}
-                />
+                <MdOutlineDarkMode className={styles.themeButton} size={25} />
               ) : (
-                <MdOutlineLightMode
-                  color="rgba(255, 255, 255, 0.6)"
-                  size={25}
-                  onClick={toggleTheme}
-                />
+                <MdOutlineLightMode className={styles.themeButton} size={25} />
               )}
-            </div>
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

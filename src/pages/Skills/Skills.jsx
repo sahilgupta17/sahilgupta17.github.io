@@ -18,8 +18,8 @@ const Skills = () => {
       <Header title="Skills" />
       <div className={styles.content}>
         <div className={styles.leftComponentContainer}>
-          {SkillsJSON.map((category) => (
-            <SkillsDisplay data={category} />
+          {SkillsJSON.map((category, index) => (
+            <SkillsDisplay key={index} data={category} />
           ))}
         </div>
         <WordCloud />

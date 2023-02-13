@@ -5,39 +5,5 @@
     "gitHubUrl": "https://github.com/apourgol/EleNa",
     "image": "Elena.webp",
     "techStack": ["React", "Django", "Python"]
-  },
-  {
-    "title": "Elena",
-    "description": "An Elevation based navigation website which assists hikers and bikers in finding shortest path between 2 locations based on minimum total elevation",
-    "gitHubUrl": "https://github.com/apourgol/EleNa",
-    "liveUrl": "https://github.com/apourgol/EleNa",
-    "image": "Elena.webp",
-    "techStack": ["React", "Django", "Python", "React", "Django", "Python"]
-  },
-  {
-    "title": "Elena",
-    "description": "An Elevation based navigation website which assists hikers and bikers in finding shortest path between 2 locations based on minimum total elevation",
-    "gitHubUrl": "https://github.com/apourgol/EleNa",
-    "youtube": "https://github.com/apourgol/EleNa",
-    "image": "Elena.webp",
-    "techStack": ["React", "Django", "Python"]
-  },
-  {
-    "title": "Elena",
-    "description": "An Elevation based navigation website which assists hikers and bikers in finding shortest path between 2 locations based on minimum total elevation",
-    "gitHubUrl": "https://github.com/apourgol/EleNa",
-    "image": "Elena.webp",
-    "techStack": ["React", "Django", "Python"]
-  },
-  {
-    "title": "Elena",
-    "description": "An Elevation based navigation website which assists hikers and bikers in finding shortest path between 2 locations based on minimum total elevation",
-    "gitHubUrl": "https://github.com/apourgol/EleNa",
-    "liveUrl": "https://github.com/apourgol/EleNa",
-    "youtube": "https://github.com/apourgol/EleNa",
-    "appStore": "https://github.com/apourgol/EleNa",
-    "googlePlayStore": "https://github.com/apourgol/EleNa",
-    "image": "Elena.webp",
-    "techStack": ["React", "Django", "Python"]
   }
 ]

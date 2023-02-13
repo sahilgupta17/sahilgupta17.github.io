@@ -5,7 +5,7 @@ const ImageHolder = (props) => {
     <picture>
       <source srcSet={props?.primarySource} type="image/webp" />
       <img
-        className={props?.className}
+        className={props?.imageClassName}
         src={props?.secondarySource}
         alt={props?.alt}
       />

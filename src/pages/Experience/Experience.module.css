@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 3.5em);
+  background-color: #3da3d5;
+}
+
+.darkText {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.lightText {
+  color: rgba(0, 0, 0, 1);
+}

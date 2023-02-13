@@ -1,4 +1,12 @@
 .navLink {
-  margin: auto;
+  text-align: center;
   padding: 0.25em 0.75em !important;
+}
+
+.themeButton {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.themeButton:hover {
+  color: rgba(255, 255, 255, 0.8);
 }

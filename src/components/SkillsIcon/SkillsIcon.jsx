@@ -16,7 +16,7 @@ const SkillsIcon = (props) => {
     >
       <img
         className={styles.iconImg}
-        src={require(`../../assets/images/skills/${props.logo}.webp`)}
+        src={require(`../../assets/images/skills/${props.logo}`)}
         alt={props.alt}
       />
       <span
