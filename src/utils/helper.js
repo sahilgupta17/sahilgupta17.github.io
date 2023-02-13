@@ -31,6 +31,9 @@ export const calcDuration = (duration) => {
 
   let diff = (endYear - startYear) * 12 + (endMonth - startMonth);
 
+  if (diff % 12 === 0) {
+    return `${diff / 12}yr`;
+  }
   if (diff < 12) {
     return `${diff}mo`;
   }
