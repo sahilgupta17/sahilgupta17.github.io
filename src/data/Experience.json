@@ -1,5 +1,6 @@
 [
   {
+    "id": 5,
     "title": "Frontend Intern",
     "organization": "AudioShelf",
     "location": "Amherst, Massachusetts, U.S.A.",
@@ -10,10 +11,13 @@
       "Incorporated deep linking for seamless navigation between the mobile application and external sources",
       "Added 6+ new features, raised 15+ issues, and resolved 12+ bugs"
     ],
+    "googlePlayStore": "https://play.google.com/store/apps/details?id=com.audioshelfapp",
+    "appStore": "https://apps.apple.com/us/app/audioshelf/id6443459241",
     "skills": ["React Native", "TypeScript"],
-    "logo": "AudioShelf"
+    "logo": "AudioShelf.webp"
   },
   {
+    "id": 4,
     "title": "Software Engineeer Intern",
     "organization": "Altius Strategic Consulting",
     "location": "California, U.S.A.",
@@ -24,9 +28,10 @@
       "Developed client-facing user interface and implemented user authentication via Firebase"
     ],
     "skills": ["Android", "Java", "AWS", "Firebase"],
-    "logo": "ASC"
+    "logo": "ASC.webp"
   },
   {
+    "id": 3,
     "title": "Software Developer",
     "organization": "CICSoft",
     "location": "Amherst, Massachusetts, U.S.A.",
@@ -36,9 +41,10 @@
       "Conducted bootcamp sessions for 50 students on Android and React Native which enabled them to learn and explore the field of mobile development"
     ],
     "skills": ["React", "Firebase"],
-    "logo": "CICSoft"
+    "logo": "CICSoft.webp"
   },
   {
+    "id": 2,
     "title": "Undergraduate Research Volunteer",
     "organization": "University of Massacusetts Amherst",
     "location": "Amherst, Massachusetts, U.S.A.",
@@ -49,9 +55,10 @@
       "Utilized cosine similarity between word embedding as metric for classification"
     ],
     "skills": ["Python", "Machine Learning"],
-    "logo": "UMass-Amherst"
+    "logo": "UMass-Amherst.webp"
   },
   {
+    "id": 1,
     "title": "Software Engineer Intern",
     "organization": "KPMG",
     "location": "Harayana, India",
@@ -61,6 +68,6 @@
       "Implemented Machine Learning algorithms on different data sets along with hyperparameter tuning for higher efficiency"
     ],
     "skills": ["Python", "Machine Learning", "Beautiful Soup"],
-    "logo": "KPMG"
+    "logo": "KPMG.webp"
   }
 ]
