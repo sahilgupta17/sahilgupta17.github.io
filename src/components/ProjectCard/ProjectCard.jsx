@@ -1,7 +1,7 @@
 import React from "react";
+import DeployBar from "../DeployBar/DeployBar";
 import styles from "./ProjectCard.module.css";
 import TechStackBar from "../TechStackBar/TechStackBar";
-import DeployBar from "../DeployBar/DeployBar";
 import { ThemeContext } from "../../App";
 
 const ProjectCard = (props) => {
@@ -36,9 +36,8 @@ const ProjectCard = (props) => {
         <DeployBar data={props.data} />
       </div>
 
-      <div>
+      <div className={styles.description}>
         <span
-          className={styles.description}
           style={{
             color: isDarkMode ? "white" : "#334155",
             opacity: isDarkMode ? 0.8 : 1,
