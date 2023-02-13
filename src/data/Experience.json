@@ -1,6 +1,19 @@
 [
   {
-    "id": 1,
+    "id": 3,
+    "title": "Software Developer",
+    "organization": "CICSoft",
+    "location": "Amherst, Massachusetts, U.S.A.",
+    "duration": "Feb 2022 - Present",
+    "description": [
+      "Developed and integrated new features for the organization",
+      "Conducted bootcamp sessions for 50 students on Android and React Native which enabled them to learn and explore the field of mobile development"
+    ],
+    "skills": ["React", "Firebase"],
+    "logo": "CICSoft.webp"
+  },
+  {
+    "id": 5,
     "title": "Frontend Intern",
     "organization": "AudioShelf",
     "location": "Amherst, Massachusetts, U.S.A.",
@@ -17,7 +30,7 @@
     "logo": "AudioShelf.webp"
   },
   {
-    "id": 2,
+    "id": 4,
     "title": "Software Engineeer Intern",
     "organization": "Altius Strategic Consulting",
     "location": "California, U.S.A.",
@@ -30,21 +43,9 @@
     "skills": ["Android", "Java", "AWS", "Firebase"],
     "logo": "ASC.webp"
   },
+
   {
-    "id": 3,
-    "title": "Software Developer",
-    "organization": "CICSoft",
-    "location": "Amherst, Massachusetts, U.S.A.",
-    "duration": "Feb 2022 - Present",
-    "description": [
-      "Developed and integrated new features for the organization",
-      "Conducted bootcamp sessions for 50 students on Android and React Native which enabled them to learn and explore the field of mobile development"
-    ],
-    "skills": ["React", "Firebase"],
-    "logo": "CICSoft.webp"
-  },
-  {
-    "id": 4,
+    "id": 2,
     "title": "Undergraduate Research Volunteer",
     "organization": "University of Massacusetts Amherst",
     "location": "Amherst, Massachusetts, U.S.A.",
@@ -58,7 +59,7 @@
     "logo": "UMass-Amherst.webp"
   },
   {
-    "id": 5,
+    "id": 1,
     "title": "Software Engineer Intern",
     "organization": "KPMG",
     "location": "Harayana, India",
