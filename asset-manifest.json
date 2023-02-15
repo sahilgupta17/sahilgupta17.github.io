@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.8a8be358.css",
-    "main.js": "/static/js/main.f2892b90.js",
-    "static/css/906.5a7da368.chunk.css": "/static/css/906.5a7da368.chunk.css",
+    "main.js": "/static/js/main.62c95338.js",
+    "static/css/906.4e8010f1.chunk.css": "/static/css/906.4e8010f1.chunk.css",
     "static/js/906.b8561d9f.chunk.js": "/static/js/906.b8561d9f.chunk.js",
     "static/css/685.0fa32a82.chunk.css": "/static/css/685.0fa32a82.chunk.css",
     "static/js/685.e64b96b7.chunk.js": "/static/js/685.e64b96b7.chunk.js",
@@ -51,8 +51,8 @@
     "static/media/AudioShelf.webp": "/static/media/AudioShelf.d8e511bc4d00e99ab70a.webp",
     "index.html": "/index.html",
     "main.8a8be358.css.map": "/static/css/main.8a8be358.css.map",
-    "main.f2892b90.js.map": "/static/js/main.f2892b90.js.map",
-    "906.5a7da368.chunk.css.map": "/static/css/906.5a7da368.chunk.css.map",
+    "main.62c95338.js.map": "/static/js/main.62c95338.js.map",
+    "906.4e8010f1.chunk.css.map": "/static/css/906.4e8010f1.chunk.css.map",
     "906.b8561d9f.chunk.js.map": "/static/js/906.b8561d9f.chunk.js.map",
     "685.0fa32a82.chunk.css.map": "/static/css/685.0fa32a82.chunk.css.map",
     "685.e64b96b7.chunk.js.map": "/static/js/685.e64b96b7.chunk.js.map",
@@ -69,6 +69,6 @@
   },
   "entrypoints": [
     "static/css/main.8a8be358.css",
-    "static/js/main.f2892b90.js"
+    "static/js/main.62c95338.js"
   ]
 }
