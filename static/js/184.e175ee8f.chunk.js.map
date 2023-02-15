@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/184.e175ee8f.chunk.js","mappings":"iKASA,UAPmB,WACjB,OACE,0BACE,wBAAI,gBAGV,C","sources":["pages/Leadership/Leadership.jsx"],"sourcesContent":["import React from \"react\";\n\nconst Leadership = () => {\n  return (\n    <div>\n      <h1>Leadership</h1>\n    </div>\n  );\n};\nexport default Leadership;\n"],"names":[],"sourceRoot":""}

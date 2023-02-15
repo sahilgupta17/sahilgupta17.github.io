@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/368.ebafe0a8.chunk.js","mappings":"iKASA,UAPqB,WACnB,OACE,0BACE,wBAAI,kBAGV,C","sources":["pages/Achievements/Achievements.jsx"],"sourcesContent":["import React from \"react\";\n\nconst Achievements = () => {\n  return (\n    <div>\n      <h1>Achievements</h1>\n    </div>\n  );\n};\nexport default Achievements;\n"],"names":[],"sourceRoot":""}
