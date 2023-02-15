@@ -6,7 +6,7 @@
     "location": "Amherst, Massachusetts, U.S.A.",
     "duration": "Nov 2022 - Feb 2023",
     "description": [
-      "Built the next generation platform for streaming audio books using React Native in TypeScript",
+      "Worked on the mobile app for streaming audio books using React Native in TypeScript",
       "Implemented caching in the app, which reduced server load by 30% thus improving app performance and user experience",
       "Incorporated deep linking for seamless navigation between the mobile application and external sources",
       "Added 6+ new features, raised 15+ issues, and resolved 12+ bugs"
@@ -23,7 +23,6 @@
     "location": "California, U.S.A.",
     "duration": "May 2022 - Aug 2022",
     "description": [
-      "Transformed existing Machine Learning pipelines using Java ML Kit to perform on-device processing on Android",
       "Architected cloud services through AWS Lambda, DynamoDB, API Gateway, S3 into the mobile application",
       "Developed client-facing user interface and implemented user authentication via Firebase"
     ],
