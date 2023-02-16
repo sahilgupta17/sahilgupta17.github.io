@@ -9,6 +9,7 @@
       "Worked on the mobile app for streaming audio books using React Native in TypeScript",
       "Implemented caching in the app, which reduced server load by 30% thus improving app performance and user experience",
       "Incorporated deep linking for seamless navigation between the mobile application and external sources",
+      "Performed code reviews to maintain high code quality and performance standards",
       "Added 6+ new features, raised 15+ issues, and resolved 12+ bugs"
     ],
     "googlePlayStore": "https://play.google.com/store/apps/details?id=com.audioshelfapp",
