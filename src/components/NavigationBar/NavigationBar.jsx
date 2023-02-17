@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { Container, Navbar, Nav } from "react-bootstrap";
 import { MdOutlineLightMode, MdOutlineDarkMode } from "react-icons/md";
 
@@ -8,6 +8,7 @@ import styles from "./NavigationBar.module.css";
 const NavigationBar = (props) => {
   const [expanded, setExpanded] = useState(false);
   const { isDarkMode, toggleTheme } = React.useContext(ThemeContext);
+  const navBarRef = useRef(null);
 
   const navigationLinks = [
     "home",
@@ -18,9 +19,22 @@ const NavigationBar = (props) => {
     // "achievements",
   ];
 
+  useEffect(() => {
+    function handleClickOutside(event) {
+      if (navBarRef.current && !navBarRef.current.contains(event.target)) {
+        setExpanded(false);
+      }
+    }
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [navBarRef]);
+
   return (
     <Navbar
       sticky="top"
+      ref={navBarRef}
       expanded={expanded}
       variant="dark"
       expand="lg"
