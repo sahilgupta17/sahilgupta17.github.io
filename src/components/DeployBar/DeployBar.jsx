@@ -61,9 +61,10 @@ const DeployBar = (props) => {
         .filter((location) => {
           return props.data[location] ? true : false;
         })
-        .map((location) => {
+        .map((location, index) => {
           return (
             <a
+              key={index}
               href={`${props.data[location]}`}
               target="_blank"
               rel="noreferrer"

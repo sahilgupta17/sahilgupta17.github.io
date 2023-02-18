@@ -59,9 +59,10 @@ const NavigationBar = (props) => {
             activeKey={props.currentTab}
             onSelect={(key) => props.setCurrentTab(key)}
           >
-            {navigationLinks.map((link) => {
+            {navigationLinks.map((link, index) => {
               return (
                 <Nav.Link
+                  key={index}
                   eventKey={link}
                   className={styles.navLink}
                   onClick={() => setExpanded(false)}
