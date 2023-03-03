@@ -24,7 +24,7 @@ export const calcDuration = (duration) => {
   if (diff < 12) {
     return `${diff}mo`;
   }
-  return `${diff / 12}yr ${diff % 12}mo`;
+  return `${Math.floor(diff / 12)}yr ${diff % 12}mo`;
 };
 
 export const sortExperience = (data) => {
