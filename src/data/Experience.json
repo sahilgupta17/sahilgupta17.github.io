@@ -25,7 +25,9 @@
     "duration": "May 2022 - Aug 2022",
     "description": [
       "Architected cloud services through AWS Lambda, DynamoDB, API Gateway, S3 into the mobile application",
-      "Developed client-facing user interface and implemented user authentication via Firebase"
+      "Developed client-facing user interface and implemented user authentication via Firebase",
+      "Documented all processes, code changes, and troubleshooting steps for future reference and to ensure smooth transitions between developers",
+      "Contributed to the team's agile development process, participating in sprint planning, stand-ups, and retrospectives"
     ],
     "skills": ["Android", "Java", "AWS", "Firebase"],
     "logo": "ASC.webp"
@@ -37,10 +39,13 @@
     "location": "Amherst, Massachusetts, U.S.A.",
     "duration": "Feb 2022 - Present",
     "description": [
-      "Developed and integrated new features for the organization",
+      "Integrated features for the organization’s admin dashboard using React with TypeScript, Tailwind CSS, and Firebase",
+      "Created new features for member management that include a search bar, filtering options to help administrators find specific members easily, tracking and handling member applications in an intuitive GUI system",
+      "Engineered Firebase Realtime Database integration for real-time updates in the member data using the Node.js SDK",
+      "Collaborated with the development team to design user-friendly interfaces that optimize the user experience",
       "Conducted bootcamp sessions for 50 students on Android and React Native which enabled them to learn and explore the field of mobile development"
     ],
-    "skills": ["React", "Firebase"],
+    "skills": ["React", "TypeScript", "Tailwind CSS", "Firebase"],
     "logo": "CICSoft.webp"
   },
   {
