@@ -5,12 +5,12 @@ import {
   FallbackProfessionalHeadshot,
   CaliforniaBackgroundImg1,
   CaliforniaBackgroundImg2,
-  CaliforniaBackgroundImg3,
   NewYorkBackgroundImg1,
   NewYorkBackgroundImg2,
   NewYorkBackgroundImg3,
   DelhiBackgroundImg1,
-  DelhiBackgroundImg2,
+  SeattleBackgroundImg1,
+  SeattleBackgroundImg2,
 } from "../../assets/images";
 import { FaLinkedinIn, FaGithub, FaFileDownload } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
@@ -18,24 +18,25 @@ import styles from "./Home.module.css";
 import { Button } from "react-bootstrap";
 
 const Home = () => {
-  const [location, setLocation] = useState("Delhi, India");
+  // const [location, setLocation] = useState("Delhi, India");
   const [backgroundImage, setBackgroundImage] = useState(DelhiBackgroundImg1);
   const backgroundImagesArray = [
     CaliforniaBackgroundImg1,
     CaliforniaBackgroundImg2,
-    CaliforniaBackgroundImg3,
     NewYorkBackgroundImg1,
     NewYorkBackgroundImg2,
     NewYorkBackgroundImg3,
     DelhiBackgroundImg1,
-    DelhiBackgroundImg2,
+    SeattleBackgroundImg1,
+    SeattleBackgroundImg2,
   ];
 
-  const locationDict = {
-    newyork: "New York, USA",
-    california: "California, USA",
-    delhi: "Delhi, India",
-  };
+  // const locationDict = {
+  //   newyork: "New York, USA",
+  //   california: "California, USA",
+  //   delhi: "Delhi, India",
+  //   seattle: "Seattle, Washingon, USA",
+  // };
 
   useEffect(() => {
     const selectedBackgroundImage =
@@ -43,8 +44,8 @@ const Home = () => {
         Math.floor(Math.random() * backgroundImagesArray.length)
       ];
     setBackgroundImage(selectedBackgroundImage);
-    const locationName = selectedBackgroundImage.split("-")[1];
-    setLocation(locationDict[locationName]);
+    // const locationName = selectedBackgroundImage.split("-")[1];
+    // setLocation(locationDict[locationName]);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
@@ -65,7 +66,7 @@ const Home = () => {
           <span>Sahil Gupta</span>
         </div>
         <div className={styles.about}>
-          <span>Software Engineer, Mobile Developer</span>
+          <span>Machine Learning Engineer, LLM enthusiast</span>
         </div>
         <div className={styles.socials}>
           <a
@@ -96,8 +97,9 @@ const Home = () => {
           </Button>
         </a>
       </div>
+      <div></div>
 
-      <div className={styles.location}>{location}</div>
+      {/* <div className={styles.location}>{location}</div> */}
     </div>
   );
 };

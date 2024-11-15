@@ -26,7 +26,7 @@ const Experience = () => {
   return (
     <div
       className={styles.container}
-      style={{ backgroundColor: isDarkMode ? "#121212" : "#3da3d5" }}
+      style={{ backgroundColor: isDarkMode ? "#121212" : "#f9f9f9" }}
     >
       <Header title="Experience" />
       <VerticalTimeline>
