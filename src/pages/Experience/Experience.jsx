@@ -30,7 +30,7 @@ const Experience = () => {
     >
       <Header title="Experience" />
       <VerticalTimeline>
-        {sortExperience(ExperienceJSON).map((experience, index) => (
+        {ExperienceJSON.map((experience, index) => (
           <VerticalTimelineElement
             key={index}
             date={`${experience.duration} • ${calcDuration(
