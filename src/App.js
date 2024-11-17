@@ -28,7 +28,7 @@ export const ThemeContext = React.createContext(null);
 
 const App = () => {
   const [currentTab, setCurrentTab] = useState("home");
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(true);
 
   const toggleTheme = () => {
     setIsDarkMode(!isDarkMode);
